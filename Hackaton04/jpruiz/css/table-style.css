@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Colores */
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.container-leyenda{
+    width: 1800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 1700px) {
+    .content{
+        overflow: scroll;
+        padding: 0 50px;
+    }
+}
+
+
+.content,
+.content-leyenda{
+    width: 100%;
+}
+
+table{
+    --M-Alcalicos: #F54439;
+    --Alcalinotérreos: #F29443;
+    --Metales: #F8F710;
+    --M-Transición: #b2f946;
+    --Lantánidos: #6fbfc7;
+    --Metaloides: #52F61E;
+    --No-metales: #3382FD;;
+    --Halógenos: #D221E7;
+    --Gases-nobles: #0CE8D4;
+    --Actínidos: #6a8f74;
+}
+
+.no-metal{
+    background-color: var(--No-metales);
+}
+.m-alcalicos{
+    background-color: var(--M-Alcalicos);
+}
+.m-alcalinoterreos{
+    background-color: var(--Alcalinotérreos);
+}
+.metales{
+    background-color: var(--Metales);
+}
+.m-transicion{
+    background-color: var(--M-Transición);
+}
+.lantanidos{
+    background-color: var(--Lantánidos);
+}
+.metaloides{
+    background-color: var(--Metaloides);
+}
+.halogenos{
+    background-color: var(--Halógenos);
+}
+.gases-nobles{
+    background-color: var(--Gases-nobles);
+}
+.actinidos{
+    background-color: var(--Actínidos);
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.white-box {
+    background-color: white;
+    border: 0;
+}
+
+.leyenda-box{
+    background-color: white;
+    height: 60px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.box-leyenda{
+    border: 1px solid black;
+    width: 153px !important;
+    height: 60px;
+    text-align: center;
+}
+
+.leyeda td{
+    width: 153px;
+    height: 60px;
+}
+.td-inner,
+.th-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.th-inner {
+    min-height: 200px;
+}
+
+.td-head,
+.th-head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.th-inner .th-simbolo {
+    font-size: 45px;
+}
+
+.th-inner .th-nombre {
+    font-size: 25px;
+}
+
+.th-head .th-numero,
+.th-numero-masa {
+    font-size: 25px;
+}
+
+.simbolo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nombre {
+    font-size: 12px;
+}

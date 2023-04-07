@@ -1,0 +1,886 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#titulo{
+    width: 500px;
+    height: 100px;
+    border: solid #fff 2px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px; left: 550px;
+    
+}
+
+.atomico{
+    font-size: 15px;
+    line-height: 0px;
+    word-spacing: 1.8em;
+}
+
+.simbolo{
+    font-size: 25px;
+    line-height: 18px;
+}
+
+.nombre{
+    font-size: 13px;
+    line-height: 0px;
+}
+
+.atomicoboro{
+    font-size: 30px;
+    line-height: 0px;
+    word-spacing: 5em;
+}
+
+.simboloboro{
+    font-size: 50px;
+    line-height: 90px;
+}
+
+.nombreboro{
+    font-size: 26px;
+    line-height: 0px;
+}
+
+.gas{
+    background: #317BF5;
+}
+
+.gas:hover{
+    background: #fff;
+}
+
+.alcalino{
+    background: #F54439;
+}
+
+.alcalino:hover{
+    background: #fff;
+}
+
+.alcalinoterreos{
+    background: #F99A46;
+}
+
+.alcalinoterreos:hover{
+    background: #fff;
+}
+
+.metalestransicion{
+    background: #B2F946;
+}
+
+.metalestransicion:hover{
+    background: #fff;
+}
+
+.lantanidos{
+    background: #6FBFC7;
+}
+
+.lantanidos:hover{
+    background: #fff;
+}
+
+.actinidos{
+    background: #6A8F74;
+}
+
+.actinidos:hover{
+    background: #fff;
+}
+
+.metaloides{
+    background: #53F71F;
+}
+
+.metaloides:hover{
+    background: #fff;
+}
+
+.metales{
+    background: #FCF911;
+}
+
+.metales:hover{
+    background: #fff;
+}
+
+.nometales{
+    background: #317BF5;
+}
+
+.nometales:hover{
+    background: #fff;
+}
+
+.halogenos{
+    background: #D221E7;
+}
+
+.halogenos:hover{
+    background: #fff;
+}
+
+.gasesnobles{
+    background: #0CE9D5;
+}
+
+.gasesnobles:hover{
+    background: #fff;
+}
+
+#eq1{
+    position: absolute;
+    top: 100px; left: 100px;
+}
+
+#eq3{
+    position: absolute;
+    top: 200px; left: 100px;
+}
+
+#eq11{
+    position: absolute;
+    top: 300px; left: 100px;
+}
+
+#eq19{
+    position: absolute;
+    top: 400px; left: 100px;
+}
+
+#eq37{
+    position: absolute;
+    top: 500px; left: 100px;
+}
+
+#eq55{
+    position: absolute;
+    top: 600px; left: 100px;
+}
+
+#eq87{
+    position: absolute;
+    top: 700px; left: 100px;
+}
+
+#eq4{
+    position: absolute;
+    top: 200px; left: 200px;
+}
+
+#eq12{
+    position: absolute;
+    top: 300px; left: 200px;
+}
+
+#eq20{
+    position: absolute;
+    top: 400px; left: 200px;
+}
+
+#eq38{
+    position: absolute;
+    top: 500px; left: 200px;
+}
+
+#eq56{
+    position: absolute;
+    top: 600px; left: 200px;
+}
+
+#eq88{
+    position: absolute;
+    top: 700px; left: 200px;
+}
+
+#eq21{
+    position: absolute;
+    top: 400px; left: 300px;
+}
+
+#eq39{
+    position: absolute;
+    top: 500px; left: 300px;
+}
+
+#LA-LU{
+    position: absolute;
+    top: 600px; left: 300px;
+}
+
+#Ac-Lr{
+    position: absolute;
+    top: 700px; left: 300px;
+}
+
+#eq5{
+    width: 300px;
+    height: 250px;
+    border: solid black 2px;
+    text-align: center;
+    
+    position: absolute;
+    top: 800px; left: 100px;
+   
+    
+}
+
+#eq22{
+    position: absolute;
+    top: 400px; left: 400px;
+}
+
+#eq40{
+    position: absolute;
+    top: 500px; left: 400px;
+}
+
+#eq72{
+    position: absolute;
+    top: 600px; left: 400px;
+}
+
+#eq104{
+    position: absolute;
+    top: 700px; left: 400px;
+}
+
+#eq57{
+    position: absolute;
+    top: 800px; left: 400px;
+}
+
+#eq89{
+    position: absolute;
+    top: 900px; left: 400px;
+}
+
+/*------------------------*/
+
+#eq23{
+    position: absolute;
+    top: 400px; left: 500px;
+}
+
+#eq41{
+    position: absolute;
+    top: 500px; left: 500px;
+}
+
+#eq73{
+    position: absolute;
+    top: 600px; left: 500px;
+}
+
+#eq105{
+    position: absolute;
+    top: 700px; left: 500px;
+}
+
+#eq58{
+    position: absolute;
+    top: 800px; left: 500px;
+}
+
+#eq90{
+    position: absolute;
+    top: 900px; left: 500px;
+}
+
+/*------------------------*/
+
+#eq24{
+    position: absolute;
+    top: 400px; left: 600px;
+}
+
+#eq42{
+    position: absolute;
+    top: 500px; left: 600px;
+}
+
+#eq74{
+    position: absolute;
+    top: 600px; left: 600px;
+}
+
+#eq106{
+    position: absolute;
+    top: 700px; left: 600px;
+}
+
+#eq59{
+    position: absolute;
+    top: 800px; left: 600px;
+}
+
+#eq91{
+    position: absolute;
+    top: 900px; left: 600px;
+}
+
+/*------------------------*/
+
+#eq25{
+    position: absolute;
+    top: 400px; left: 700px;
+}
+
+#eq43{
+    position: absolute;
+    top: 500px; left: 700px;
+}
+
+#eq75{
+    position: absolute;
+    top: 600px; left: 700px;
+}
+
+#eq107{
+    position: absolute;
+    top: 700px; left: 700px;
+}
+
+#eq60{
+    position: absolute;
+    top: 800px; left: 700px;
+}
+
+#eq92{
+    position: absolute;
+    top: 900px; left: 700px;
+}
+
+/*------------------------*/
+
+#eq26{
+    position: absolute;
+    top: 400px; left: 800px;
+}
+
+#eq44{
+    position: absolute;
+    top: 500px; left: 800px;
+}
+
+#eq76{
+    position: absolute;
+    top: 600px; left: 800px;
+}
+
+#eq108{
+    position: absolute;
+    top: 700px; left: 800px;
+}
+
+#eq61{
+    position: absolute;
+    top: 800px; left: 800px;
+}
+
+#eq93{
+    position: absolute;
+    top: 900px; left: 800px;
+}
+
+/*------------------------*/
+
+#eq27{
+    position: absolute;
+    top: 400px; left: 900px;
+}
+
+#eq45{
+    position: absolute;
+    top: 500px; left: 900px;
+}
+
+#eq77{
+    position: absolute;
+    top: 600px; left: 900px;
+}
+
+#eq109{
+    position: absolute;
+    top: 700px; left: 900px;
+}
+
+#eq62{
+    position: absolute;
+    top: 800px; left: 900px;
+}
+
+#eq94{
+    position: absolute;
+    top: 900px; left: 900px;
+}
+
+/*------------------------*/
+
+#eq28{
+    position: absolute;
+    top: 400px; left: 1000px;
+}
+
+#eq46{
+    position: absolute;
+    top: 500px; left: 1000px;
+}
+
+#eq78{
+    position: absolute;
+    top: 600px; left: 1000px;
+}
+
+#eq110{
+    position: absolute;
+    top: 700px; left: 1000px;
+}
+
+#eq63{
+    position: absolute;
+    top: 800px; left: 1000px;
+}
+
+#eq95{
+    position: absolute;
+    top: 900px; left: 1000px;
+}
+
+/*------------------------*/
+
+#eq29{
+    position: absolute;
+    top: 400px; left: 1100px;
+}
+
+#eq47{
+    position: absolute;
+    top: 500px; left: 1100px;
+}
+
+#eq79{
+    position: absolute;
+    top: 600px; left: 1100px;
+}
+
+#eq111{
+    position: absolute;
+    top: 700px; left: 1100px;
+}
+
+#eq64{
+    position: absolute;
+    top: 800px; left: 1100px;
+}
+
+#eq96{
+    position: absolute;
+    top: 900px; left: 1100px;
+}
+
+/*------------------------*/
+
+#eq30{
+    position: absolute;
+    top: 400px; left: 1200px;
+}
+
+#eq48{
+    position: absolute;
+    top: 500px; left: 1200px;
+}
+
+#eq80{
+    position: absolute;
+    top: 600px; left: 1200px;
+}
+
+#eq112{
+    position: absolute;
+    top: 700px; left: 1200px;
+}
+
+#eq65{
+    position: absolute;
+    top: 800px; left: 1200px;
+}
+
+#eq97{
+    position: absolute;
+    top: 900px; left: 1200px;
+}
+
+/*------------------------*/
+
+#eq5-2{
+    position: absolute;
+    top: 200px; left: 1300px;
+}
+
+#eq13{
+    position: absolute;
+    top: 300px; left: 1300px;
+}
+
+#eq31{
+    position: absolute;
+    top: 400px; left: 1300px;
+}
+
+#eq49{
+    position: absolute;
+    top: 500px; left: 1300px;
+}
+
+#eq81{
+    position: absolute;
+    top: 600px; left: 1300px;
+}
+
+#eq113{
+    position: absolute;
+    top: 700px; left: 1300px;
+}
+
+#eq66{
+    position: absolute;
+    top: 800px; left: 1300px;
+}
+
+#eq98{
+    position: absolute;
+    top: 900px; left: 1300px;
+}
+
+/*------------------------*/
+
+#eq6{
+    position: absolute;
+    top: 200px; left: 1400px;
+}
+
+#eq14{
+    position: absolute;
+    top: 300px; left: 1400px;
+}
+
+#eq32{
+    position: absolute;
+    top: 400px; left: 1400px;
+}
+
+#eq50{
+    position: absolute;
+    top: 500px; left: 1400px;
+}
+
+#eq82{
+    position: absolute;
+    top: 600px; left: 1400px;
+}
+
+#eq114{
+    position: absolute;
+    top: 700px; left: 1400px;
+}
+
+#eq67{
+    position: absolute;
+    top: 800px; left: 1400px;
+}
+
+#eq99{
+    position: absolute;
+    top: 900px; left: 1400px;
+}
+
+/*------------------------*/
+
+#eq7{
+    position: absolute;
+    top: 200px; left: 1500px;
+}
+
+#eq15{
+    position: absolute;
+    top: 300px; left: 1500px;
+}
+
+#eq33{
+    position: absolute;
+    top: 400px; left: 1500px;
+}
+
+#eq51{
+    position: absolute;
+    top: 500px; left: 1500px;
+}
+
+#eq83{
+    Position: absolute;
+    top: 600px; left: 1500px;
+}
+
+#eq115{
+    position: absolute;
+    top: 700px; left: 1500px;
+}
+
+#eq68{
+    position: absolute;
+    top: 800px; left: 1500px;
+}
+
+#eq100{
+    position: absolute;
+    top: 900px; left: 1500px;
+}
+
+/*------------------------*/
+
+#eq8{
+    position: absolute;
+    top: 200px; left: 1600px;
+}
+
+#eq16{
+    position: absolute;
+    top: 300px; left: 1600px;
+}
+
+#eq34{
+    position: absolute;
+    top: 400px; left: 1600px;
+}
+
+#eq52{
+    position: absolute;
+    top: 500px; left: 1600px;
+}
+
+#eq84{
+    Position: absolute;
+    top: 600px; left: 1600px;
+}
+
+#eq116{
+    position: absolute;
+    top: 700px; left: 1600px;
+}
+
+#eq69{
+    position: absolute;
+    top: 800px; left: 1600px;
+}
+
+#eq101{
+    position: absolute;
+    top: 900px; left: 1600px;
+}
+
+/*------------------------*/
+
+#eq9{
+    position: absolute;
+    top: 200px; left: 1700px;
+}
+
+#eq17{
+    position: absolute;
+    top: 300px; left: 1700px;
+}
+
+#eq35{
+    position: absolute;
+    top: 400px; left: 1700px;
+}
+
+#eq53{
+    position: absolute;
+    top: 500px; left: 1700px;
+}
+
+#eq85{
+    Position: absolute;
+    top: 600px; left: 1700px;
+}
+
+#eq117{
+    position: absolute;
+    top: 700px; left: 1700px;
+}
+
+#eq70{
+    position: absolute;
+    top: 800px; left: 1700px;
+}
+
+#eq102{
+    position: absolute;
+    top: 900px; left: 1700px;
+}
+
+/*------------------------*/
+
+#eq2{
+    position: absolute;
+    top: 100px; left: 1800px;
+}
+
+#eq10{
+    position: absolute;
+    top: 200px; left: 1800px;
+}
+
+#eq18{
+    position: absolute;
+    top: 300px; left: 1800px;
+}
+
+#eq36{
+    position: absolute;
+    top: 400px; left: 1800px;
+}
+
+#eq54{
+    position: absolute;
+    top: 500px; left: 1800px;
+}
+
+#eq86{
+    Position: absolute;
+    top: 600px; left: 1800px;
+}
+
+#eq118{
+    position: absolute;
+    top: 700px; left: 1800px;
+}
+
+#eq71{
+    position: absolute;
+    top: 800px; left: 1800px;
+}
+
+#eq103{
+    position: absolute;
+    top: 900px; left: 1800px;
+}
+
+/*------------------------*/
+
+#texto1{
+    position: absolute;
+    top: 1000px; left: 400px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+
+}
+
+#texto2{
+    position: absolute;
+    top: 1000px; left: 550px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto3{
+    position: absolute;
+    top: 1000px; left: 700px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto4{
+    position: absolute;
+    top: 1000px; left: 850px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto5{
+    position: absolute;
+    top: 1000px; left: 1000px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto6{
+    position: absolute;
+    top: 1000px; left: 1150px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto7{
+    position: absolute;
+    top: 1000px; left: 1300px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto8{
+    position: absolute;
+    top: 1000px; left: 1450px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto9{
+    position: absolute;
+    top: 1000px; left: 1600px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+#texto10{
+    position: absolute;
+    top: 1000px; left: 1750px;
+    width: 150px;
+    height: 50px;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+.nombre2{
+    font-size: 18px;
+    line-height: 15px;
+}

@@ -1,0 +1,155 @@
+:root {
+	font-size: 16px;
+}
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+.no-metal {
+	background-color: #317bf5;
+}
+.gases-nobles {
+	background-color: #0ce9d5;
+}
+.m-alcalicos {
+	background-color: #f54439;
+}
+.alcalinoterreos {
+	background-color: #f99a46;
+}
+.metales {
+	background-color: #fcf911;
+}
+.m-transicion {
+	background-color: #b2f946;
+}
+.lantanidos {
+	background-color: #6fbfc7;
+}
+.metaloides {
+	background-color: #53f71f;
+}
+.halogenos {
+	background-color: #d221e7;
+}
+.actinidos {
+	background-color: #6a8f74;
+}
+
+body {
+	display: grid;
+	place-content: center;
+	/* height: 100vh; */
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 90vw;
+	width: 100%;
+	position: relative;
+}
+.title {
+	position: absolute;
+	top: 5rem;
+	left: 22rem;
+}
+.row-1,
+.row-2,
+.row-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.row-4,
+.row-5,
+.row-6,
+.row-7,
+.row-8,
+.row-9 {
+	display: flex;
+	flex-direction: row;
+}
+.group-left,
+.group-right {
+	display: flex;
+	flex-direction: row;
+}
+.element {
+	display: flex;
+	flex-direction: column;
+	padding: 0.6rem;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #000;
+	width: 3.875rem;
+}
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
+.text-sm {
+	font-size: 0.8rem;
+}
+.text-md {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.text-lg {
+	font-size: 1.5rem;
+}
+.text-3xl {
+	font-size: 4rem;
+}
+.fix-text {
+	font-size: 1.2rem;
+}
+.name {
+	font-size: 0.6rem;
+	text-transform: uppercase;
+}
+.row-group {
+	display: flex;
+	flex-direction: row;
+}
+.rows {
+	display: flex;
+	flex-direction: column;
+}
+.element-big {
+	display: flex;
+	flex-direction: column;
+	padding: 0.6rem;
+	align-items: center;
+	justify-content: space-between;
+	border: 0.06rem solid #000;
+	/* width: 14.251rem; */
+	width: 1425.1%;
+}
+.top-big {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 8rem;
+}
+.name-big {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.row-10 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.type {
+	border: 0.06rem solid #000;
+	flex-grow: 1;
+	text-align: center;
+}

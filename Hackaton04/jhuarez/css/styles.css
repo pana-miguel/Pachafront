@@ -1,0 +1,105 @@
+ 
+  /* Using table  */
+
+  .table {
+    border-collapse: collapse;
+    
+  }
+
+  .table tr:last-child td {
+    height: 2vw;
+  }
+  
+  td {
+    width: 5vw;
+    border: 1px solid black;
+    height: 5vw;
+    text-align: center;
+    font-size: x-small;
+    position: relative;
+  }
+
+  .altRow table {
+    width: 100%;
+  }
+
+
+
+  .invisible {
+    border: none;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+
+  .alcalicos {
+    background-color: red;
+  }
+
+  .alcalinoterreos {
+    background-color: #ffa500;
+  }
+
+  .metales {
+    background-color: yellow;
+  }
+
+  .transicion {
+    background-color: #D0DB61;
+  }
+
+  .lantanidos {
+    background-color: aquamarine;
+  }
+
+  .metaloides {
+    background-color: lime;
+  }
+
+  .nometales {
+    background-color: #1167b1;
+  }
+
+  .halogenos{
+    background-color: #BB29BB;
+  }
+
+  .nobles{
+    background-color: aqua;
+  }
+
+  .actinidos{
+    background-color: grey;
+  }
+
+  .symbol {
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .bigsymbol{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
+  .right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+  }
+
+  .elemento {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+  }
+
+

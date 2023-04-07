@@ -1,0 +1,46 @@
+.hex {
+    background-color: #86DEFA;
+    margin-bottom: 10px;
+}
+  
+.rgb {
+  background-color: rgb(134, 222, 250);
+  margin-bottom: 10px;
+}
+  
+.hsl {
+    background-color: hsl(194, 46%, 75%);
+    margin-bottom: 10px;
+}
+  
+.transparency {
+  background-color: rgba(134, 222, 250,0.6);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1+p {
+    font-size: 120%;
+}
+     
+.box {
+    width: 600px;
+    height: 500px;
+    border: 6px solid black;
+    display: block;
+}
+
+.box img {
+    margin-top: 20%;
+    margin-left: 30%;
+}

@@ -1,0 +1,189 @@
+
+/* ----------------- COLORES PARA LOS ELEMENTOS ----------------- */
+.color-MAlcalicos {background-color: #f54439;}
+
+.color-Alcalinoterreos {background-color: #f99a46;}
+
+.color-Metales {background-color: #fcf911;}
+
+.color-MTransicion {background-color: #b2f946;}
+
+.color-Lantanidos {background-color: #6fbfc7;}
+
+.color-Metaloides {background-color: #53f71f;}
+
+.color-NoMetales {background-color: #317bf5;}
+
+.color-Halogenos {background-color: #d221e7;}
+
+.color-GasesNobles {background-color: #0ce9d5;}
+
+.color-Actinidos {background-color: #6a8f74;}
+/* ----------------- /COLORES PARA LOS ELEMENTOS ----------------- */
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 60px 0px 100px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    color: #2863d1;
+    font-size: 5.7rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title::before,
+.title::after {
+    background-color: #2863d1;
+    content: "";
+    width: 30px;
+    height:30px;
+    animation: rotate 5s linear infinite;
+}
+
+.title::after {
+    animation: rotate 5s linear -2.5s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+.tablaPeriodica-Container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(18, 10rem);
+    grid-template-rows: repeat(9, 10rem) 6rem;
+    overflow-x: auto;
+    padding: 30px;
+}
+
+
+
+/* ----------------- ESTILOS PARA LOS ELEMENTOS ----------------- */
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2px;
+    border: 1px solid #000;
+    transition: box-shadow 0.8s, transform 0.8s;
+}
+
+.element .element__numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.element .element__numbers p {
+    font-size: 1.8rem;
+}
+
+.element .element__symbol {
+    font-size: 3.2rem;
+}
+
+.element .element__name {
+    font-size: 1.2rem;
+}
+
+.element:hover {
+    box-shadow: 0 0 10px 4px #000;
+    transform: scale(1.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    z-index: 1;
+}
+/* ----------------- /ESTILOS PARA LOS ELEMENTOS ----------------- */
+
+
+
+/* -------------- ESTILOS PARA ESPACIOS EN BLANCO -------------- */
+.space-1 {
+    grid-column: 2 / 18;
+}
+
+.space-2 {
+    grid-column: 3 / 13;
+    text-align: center;
+}
+
+.space-2 h2 {
+    font-size: 3.5rem;
+}
+/* -------------- /ESTILOS PARA ESPACIOS EN BLANCO -------------- */
+
+
+
+/* -------------- ESTILOS PARA ELEMENTO BORO GRANDE -------------- */
+#largeBoro {
+    grid-column: 1 / 4;
+    grid-row: 8 / 11;
+    padding: 10px;
+}
+
+#largeBoro .element__numbers {
+    justify-content: space-between;
+}
+
+#largeBoro .element__numbers p {
+    font-size: 3.0rem;
+}
+
+#largeBoro .element__symbol {
+    font-size: 10.0rem;
+}
+
+#largeBoro .element__name {
+    font-size: 3.0rem;
+}
+/* -------------- /ESTILOS PARA ELEMENTO BORO GRANDE -------------- */
+
+
+
+/* -------------- /ESTILOS PARA LOS TIPOS DE ELEMENTOS -------------- */
+.typeElements {
+    grid-column: 4 / 19;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 100%;
+}
+
+.typeElements .typeElements__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    transition: box-shadow 0.8s, transform 0.8s;
+}
+
+.typeElements .typeElements__name h4 {
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+
+.typeElements__name:hover {
+    box-shadow: 0 0 10px 4px #000;
+    transform: scale(1.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    z-index: 1;
+}
+/* -------------- /ESTILOS PARA LOS TIPOS DE ELEMENTOS -------------- */

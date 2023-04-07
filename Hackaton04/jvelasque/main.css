@@ -1,0 +1,58 @@
+body{background-color: bisque;}
+h1{color: black;}
+.table {
+    width: 100%;
+    table-layout: fixed;
+    font-weight: bold;
+}
+.element {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .element:hover {
+    transform: scale(1.8);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px #ff0000;
+    color: #fff;
+  }
+.table td{
+    border: 1px solid black;
+    height: 35px;
+    table-layout: fixed;
+    font-weight: bold;
+}
+.amarillo{
+    background-color: yellow;
+    table-layout: fixed;
+}
+.azul{
+    background-color: rgb(61, 61, 234);
+}
+.rojo{
+    background-color: rgb(244, 88, 120);
+}
+.verde{background-color: chartreuse;}
+.celesteclaro{
+    background-color: aqua;
+}
+.rosado{
+background-color: deeppink;
+}
+.verdeclar{
+    background-color: greenyellow;
+}
+.naranja{
+    background-color: orange;
+}
+.celeste{
+    background-color: lightblue;
+}
+.celelesteoscuro{
+    background-color: lightslategray;
+}
+#boro{
+    width: 333px;
+    height: 190px;
+    position: absolute
+
+}

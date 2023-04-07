@@ -1,0 +1,2392 @@
+.contenido{
+    position: absolute;
+}
+
+.table{
+    position: 100%;
+    height: 170px;
+}
+
+.table td{
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
+.table td:first-child{
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(2){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(3){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(4){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(5){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(6){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(7){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(8){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(9){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(10){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(11){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(12){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(13){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(14){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(15){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(16){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(17){
+    width: 5%;
+    height: 70px;
+}
+
+.table td:nth-child(18){
+    width: 5%;
+    height: 70px;
+}
+
+.numero{
+    position: relative;
+    font-size: 12px;
+    margin-left: 5px;
+    top: -5px;
+}
+
+.numeroespecial1{
+    position: relative;
+    font-size: 12px;
+    top: -5px;
+    margin-left: 30px;
+}
+
+.numeroespecial2{
+    position: relative;
+    font-size: 12px;
+    top: -5px;
+    margin-left: 28px;
+}
+
+.peso{
+    position: relative;
+    font-size: 12px;
+    margin-left: 18px;
+    top: -5px;
+}
+
+.elemento1{
+    position: absolute;
+    top: 27px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento2{
+    position: absolute;
+    top: 27px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento3{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento4{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento5{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.elemento6{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento7{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento8{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento9{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento10{
+    position: absolute;
+    top: 102px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento11{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento12{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento13{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento14{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+.elemento15{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 42px;
+    font-weight: bold;
+}
+
+.elemento16{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 42px;
+    font-weight: bold;
+}
+
+.elemento17{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento18{
+    position: absolute;
+    top: 179px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento19{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento20{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento21{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+.elemento22{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento23{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.elemento24{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento25{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento26{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento27{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento28{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento29{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento30{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento31{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento32{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento33{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento34{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento35{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento36{
+    position: absolute;
+    top: 255px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento37{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento38{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento39{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento40{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento41{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento42{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento43{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento44{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento45{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento46{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento47{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento48{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento49{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+.elemento50{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento51{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32PX;
+    font-weight: bold;
+}
+
+.elemento52{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento53{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 42px;
+    font-weight: bold;
+}
+
+.elemento54{
+    position: absolute;
+    top: 331px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento55{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento56{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento57{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.elemento58{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento59{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento60{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento61{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento62{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento63{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+.elemento64{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+.elemento65{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento66{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento67{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento68{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento69{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento70{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento71{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento72{
+    position: absolute;
+    top: 406px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento73{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento74{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento75{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.elemento76{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento77{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento78{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento79{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento80{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento81{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento82{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento83{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento84{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento85{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento86{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento87{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento88{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento89{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento90{
+    position: absolute;
+    top: 482px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento91{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento92{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento93{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento94{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento95{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento96{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento97{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento98{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento99{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento100{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento101{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento102{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 34px;
+    font-weight: bold;
+}
+
+.elemento103{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento104{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento105{
+    position: absolute;
+    top: 558px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento106{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento107{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento108{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento109{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+.elemento110{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento111{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento112{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 26px;
+    font-weight: bold;
+}
+
+.elemento113{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 26px;
+    font-weight: bold;
+}
+
+.elemento114{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento115{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento116{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.elemento117{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento118{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.elemento119{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.elemento120{
+    position: absolute;
+    top: 633px;
+    font-size: 26px; 
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.nombre1{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+
+.nombre2{
+    position: relative;
+    top: 8px;
+    margin-left: 35px;
+    font-size: 9px; 
+}
+
+.nombre3{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre4{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre5{
+    position: relative;
+    top: 8px;
+    margin-left: 36px;
+    font-size: 9px; 
+}
+
+.nombre6{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre7{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre8{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre9{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre10{
+    position: relative;
+    top: 8px;
+    margin-left: 36px;
+    font-size: 9px; 
+}
+
+.nombre11{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre12{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre13{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre14{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre15{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre16{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre17{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre18{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre19{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+.nombre20{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre21{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre22{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre23{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre24{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre25{
+    position: relative;
+    top: 8px;
+    margin-left: 21px;
+    font-size: 9px; 
+}
+
+.nombre26{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre27{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre28{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre29{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre30{
+    position: relative;
+    top: 8px;
+    margin-left: 36px;
+    font-size: 9px; 
+}
+
+.nombre31{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre32{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre33{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre34{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre35{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre36{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre37{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre38{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre39{
+    position: relative;
+    top: 8px;
+    margin-left: 36px;
+    font-size: 9px; 
+}
+
+.nombre40{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre41{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre42{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+.nombre43{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre44{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre45{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre46{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre47{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre48{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre49{
+    position: relative;
+    top: 8px;
+    margin-left: 36px;
+    font-size: 9px; 
+}
+
+.nombre50{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre51{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre52{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre53{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre54{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre55{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre56{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre57{
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-size: 9px; 
+}
+
+.nombre58{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre59{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre60{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+.nombre61{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre62{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre63{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre64{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre65{
+    position: relative;
+    top: 8px;
+    margin-left: 38px;
+    font-size: 9px; 
+}
+
+.nombre66{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+.nombre67{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre68{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre69{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre70{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre71{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre72{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre73{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre74{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre75{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre76{
+    position: relative;
+    top: 8px;
+    margin-left: 14px;
+    font-size: 9px; 
+}
+
+.nombre77{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre78{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+.nombre79{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre80{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre81{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+.nombre82{
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-size: 9px; 
+}
+
+.nombre83{
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-size: 9px; 
+}
+
+.nombre84{
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-size: 9px; 
+}
+
+.nombre85{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre86{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre87{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre88{
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-size: 9px; 
+}
+
+.nombre89{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre90{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre91{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre92{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre93{
+    position: relative;
+    top: 8px;
+    margin-left: 16px;
+    font-size: 9px; 
+}
+
+.nombre94{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre95{
+    position: relative;
+    top: 8px;
+    margin-left: 25px;
+    font-size: 9px; 
+}
+
+.nombre96{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre97{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre98{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.nombre99{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre100{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre101{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre102{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre103{
+    position: relative;
+    top: 8px;
+    margin-left: 34px;
+    font-size: 9px; 
+}
+
+.nombre104{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre105{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre106{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre107{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre108{
+    position: relative;
+    top: 8px;
+    margin-left: 16px;
+    font-size: 9px; 
+}
+
+.nombre109{
+    position: relative;
+    top: 8px;
+    margin-left: 30px;
+    font-size: 9px; 
+}
+
+.nombre110{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre111{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre112{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre113{
+    position: relative;
+    top: 8px;
+    margin-left: 32px;
+    font-size: 9px; 
+}
+
+.nombre114{
+    position: relative;
+    top: 8px;
+    margin-left: 26px;
+    font-size: 9px; 
+}
+
+.nombre115{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-size: 9px; 
+}
+
+.nombre116{
+    position: relative;
+    top: 8px;
+    margin-left: 24px;
+    font-size: 9px; 
+}
+
+.nombre117{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre118{
+    position: relative;
+    top: 8px;
+    margin-left: 18px;
+    font-size: 9px; 
+}
+
+.nombre119{
+    position: relative;
+    top: 8px;
+    margin-left: 28px;
+    font-size: 9px; 
+}
+
+.nombre120{
+    position: relative;
+    top: 8px;
+    margin-left: 22px;
+    font-size: 9px; 
+}
+
+.color1{
+    background-color: #317BF5;
+}
+.color1:hover{
+    background-color: #E5E3AA;
+  }
+
+.color2{
+    background-color: #F54439;
+}
+.color2:hover{
+    background-color: #E5E3AA;
+  }
+
+.color3{
+    background-color: #F99A46;
+}
+.color3:hover{
+    background-color: #E5E3AA;
+  }
+
+.color4{
+    background-color: #0CE9D5;
+}
+.color4:hover{
+    background-color: #E5E3AA;
+  }
+
+.color5{
+    background-color: #D221E7;
+}
+.color5:hover{
+    background-color: #E5E3AA;
+  }
+
+.color6{
+    background-color: #317BF5;
+}
+.color6:hover{
+    background-color: #E5E3AA;
+  }
+
+.color7{
+    background-color: #53F71F;
+}
+.color7:hover{
+    background-color: #E5E3AA;
+  }
+
+.color8{
+    background-color: #B2F946;
+}
+.color8:hover{
+    background-color: #E5E3AA;
+  }
+
+.color9{
+    background-color: #FCF911;
+}
+.color9:hover{
+    background-color: #E5E3AA;
+  }
+
+.color10{
+    background-color: #6FBFC7;
+}
+.color10:hover{
+    background-color: #E5E3AA;
+  }
+
+.color11{
+    background-color: #6A8F74;
+}
+.color11:hover{
+    background-color: #E5E3AA;
+  }
+
+.caja{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 294px;
+    height: 190px;
+    top: 542px;
+    margin-left: 2px;
+    background-color: #53F71F;
+}
+
+.numerocaja{
+    position: relative;
+    margin-left: 25px;
+    top: 10px;
+    font-size: 25px;
+}
+
+.pesocaja{
+    position: relative;
+    margin-left: 200px;
+    top: -18px;
+    font-size: 25px;
+}
+
+.elementocaja{
+    position: relative;
+    margin-left: 120px;
+    top: -15px;
+    font-size: 55px;
+}
+
+.nombrecaja{
+    position: relative;
+    margin-left: 105px;
+    top: -10px;
+    font-size: 25px;
+}
+
+.caja:hover{
+    background-color: #E5E3AA;
+}
+
+.caja1{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 149px;
+    height: 38px;
+    top: 694px;
+    margin-left: 300px;
+    background-color: #F54439;
+}
+
+.nombrecaja1{
+    position: relative;
+    margin-left: 32px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja1:hover{
+    background-color: #E5E3AA;
+}
+
+.caja2{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 145px;
+    height: 38px;
+    top: 694px;
+    margin-left: 453px;
+    background-color: #F99A46;
+}
+
+.nombrecaja2{
+    position: relative;
+    margin-left: 30px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja2:hover{
+    background-color: #E5E3AA;
+}
+
+.caja3{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 134px;
+    height: 38px;
+    top: 694px;
+    margin-left: 602px;
+    background-color: #FCF911;
+}
+
+.nombrecaja3{
+    position: relative;
+    margin-left: 47px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja3:hover{
+    background-color: #E5E3AA;
+}
+
+.caja4{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 145px;
+    height: 38px;
+    top: 694px;
+    margin-left: 741px;
+    background-color: #B2F946;
+}
+
+.nombrecaja4{
+    position: relative;
+    margin-left: 30px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja4:hover{
+    background-color: #E5E3AA;
+}
+
+.caja5{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 145px;
+    height: 38px;
+    top: 694px;
+    margin-left: 891px;
+    background-color: #6FBFC7;
+}
+
+.nombrecaja5{
+    position: relative;
+    margin-left: 30px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja5:hover{
+    background-color: #E5E3AA;
+}
+
+.caja6{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 145px;
+    height: 38px;
+    top: 694px;
+    margin-left: 1040px;
+    background-color: #53F71F;
+}
+
+.nombrecaja6{
+    position: relative;
+    margin-left: 40px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja6:hover{
+    background-color: #E5E3AA;
+}
+
+.caja7{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 147px;
+    height: 38px;
+    top: 694px;
+    margin-left: 1189px;
+    background-color: #317BF5;
+}
+
+.nombrecaja7{
+    position: relative;
+    margin-left: 40px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja7:hover{
+    background-color: #E5E3AA;
+}
+
+.caja8{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 147px;
+    height: 38px;
+    top: 694px;
+    margin-left: 1340px;
+    background-color: #D221E7;
+}
+
+.nombrecaja8{
+    position: relative;
+    margin-left: 40px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja8:hover{
+    background-color: #E5E3AA;
+}
+
+.caja9{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 147px;
+    height: 38px;
+    top: 694px;
+    margin-left: 1492px;
+    background-color: #0CE9D5;
+}
+
+.nombrecaja9{
+    position: relative;
+    margin-left: 35px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja9:hover{
+    background-color: #E5E3AA;
+}
+
+.caja10{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 141px;
+    height: 38px;
+    top: 694px;
+    margin-left: 1643px;
+    background-color: #6A8F74;
+}
+
+.nombrecaja10{
+    position: relative;
+    margin-left: 35px;
+    top: 12px;
+    font-size: 15px;
+}
+
+.caja10:hover{
+    background-color: #E5E3AA;
+}
+
+.caja11{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 601px;
+    height: 38px;
+    top: 80px;
+    margin-left: 383px;
+    
+}
+
+.nombrecaja11{
+    position: relative;
+    margin-left: 35px;
+    top: 12px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

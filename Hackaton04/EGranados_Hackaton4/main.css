@@ -1,0 +1,87 @@
+body{
+    margin:0;
+}
+div,td{
+    margin: 0;
+    padding: 0;
+    text-align: center;   
+}
+p{
+    margin: 0;
+}
+td:hover{
+    background-color: aliceblue;
+}
+.table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table td{
+    border: 1px solid black;
+    height: 30px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.s-title{
+    font-size: 8px;
+    text-transform: uppercase;
+
+}
+.n-metal{
+    background-color: #307bf4;
+}
+.g-nobles{
+    background-color: #0de8d5;
+}
+.m-alcalicos{
+    background-color: #f44539;
+}
+.alcalinots{
+    background-color: #f99b47;
+}
+.metaloides{
+    background-color: #52f71e;
+}
+.halogenos{
+    background-color: #d220e6;
+}
+.metales{
+    background-color: #fcf911;
+}
+.transicion{
+    background-color: #b3f846;
+}
+.lantanidos{
+    background-color: #6fbec6;
+}
+.actinidos{
+    background-color: #6a8f74;
+}
+/* .number{
+    align-self: flex-start;
+} */
+.number{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.number-combined{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.title-2{
+    font-size: 32px;
+    font-weight: bold;
+}

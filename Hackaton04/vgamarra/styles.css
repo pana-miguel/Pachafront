@@ -1,0 +1,197 @@
+html{
+    box-sizing: border-box;
+}
+body {
+    padding-left: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template: repeat(10, minmax(60px, 1fr)) / repeat(18, minmax(60px, 1fr));
+    grid-template-areas:
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+        "element  element  element  element  element  element  element  element  element  element element  element  element  element  element  element  element  element"
+        "boro___  boro___  boro___  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb elemenb  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb"
+        "boro___  boro___  boro___  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb elemenb  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb  elemenb"
+        "boro___  boro___  boro___  types__  types__  types__  types__  types__  types__  types__ types__  types__  types__  types__  types__  types__  types__  types__"
+    ;
+}
+
+.element {
+    grid-area: element;
+    display: grid;
+    grid-template: repeat(7, 1fr) / repeat(18, 1fr);
+}
+
+.elemenb {
+    grid-area: elemenb;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(15, 1fr);
+}
+
+.boro___ {
+    grid-area: boro___;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+}
+
+.boro___ .boro-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 24px;
+    border: unset;
+}
+
+.boro___ .boro-top .align_left{
+    text-align: right;
+}
+
+.boro___ .boro-text-center {
+    font-size: 64px;
+    font-weight: 600;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: unset;
+}
+
+.boro___ .boro-footer {
+    font-size: 24px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: unset;
+}
+
+.types__ {
+    grid-area: types__;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.mark-div-red {
+    border: 2px dotted red;
+    /* Red border */
+}
+
+.mark-div-blue {
+    border: 2px dotted blue;
+    /* Red border */
+}
+
+.space {
+    border: unset;
+    background-color: white;
+}
+
+.no-metal {
+    border: unset;
+    background-color: #317bf5;
+}
+
+.nobel-gases {
+    border: unset;
+    background-color: #0ce9d5;
+}
+
+.alcaline-metal {
+    border: unset;
+    background-color: #f54439;
+}
+
+.land-alcaline {
+    border: unset;
+    background-color: #f99a46;
+}
+
+.metalloid {
+    border: unset;
+    background-color: #53f71f;
+}
+
+.metal {
+    border: unset;
+    background-color: #fcf911;
+}
+
+.transition-metal {
+    border: unset;
+    background-color: #b2f946;
+}
+
+.lanthanides {
+    border: unset;
+    background-color: #6fbfc7;
+}
+
+.halogens {
+    border: unset;
+    background-color: #d221e7;
+}
+
+.actinins {
+    border: unset;
+    background-color: #6a8f74;
+}
+
+.center-text {
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+.cell{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    border: unset;
+}
+
+.cell .cell-top{
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: unset;
+}
+
+.cell .cell-center{
+    font-size: 24px;
+    font-weight: 800;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: unset;
+}
+
+.cell .cell-footer{
+    font-size: 16px;
+    text-align: center;
+    border: unset;
+}
+
+div{
+    text-align: center;
+}
+.atomico{
+    font-size: 15px;
+    line-height: 0px;
+}
+.simbolo{
+    font-size: 25px;
+    line-height: 0px;
+}
+.nombre{
+    font-size: 13px;
+    line-height: 0px;
+}
+.peso{
+    font-size: 10px;
+    line-height: 0px;
+}

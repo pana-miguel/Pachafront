@@ -1,0 +1,91 @@
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    font-size: 160%;
+}
+
+.container-tipos-elementos {
+    display: flex;
+    padding: 0 !important;
+}
+
+.container-tipos-elementos>div {
+    border-left: 1px solid black;
+    line-height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.container-tipos-elementos>div>p {
+    font-size: 170%;
+}
+
+.no-border {
+    border: none;
+}
+
+.rango-valor{
+    font-size: 170%;
+}
+
+.container-boro {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cabecera-boro>div>p {
+    font-size: 30px;
+}
+
+.cuerpo-boro>h1 {
+    font-size: 90px;
+}
+
+.descripcion-boro>p {
+    font-size: 30px;
+}
+
+
+/*COLORES*/
+.color-m-alcalicos {
+    background-color: #f54439;
+}
+
+.color-alcalinoterreos {
+    background-color: #f99a46;
+}
+
+.color-metales {
+    background-color: #fcf911;
+}
+
+.color-m-transicion {
+    background-color: #b2f946
+}
+
+.color-lantanidos {
+    background-color: #6fbfc7;
+}
+
+.color-metaloides {
+    background-color: #53f71f;
+}
+
+.color-no-metales {
+    background-color: #317bf5;
+}
+
+.color-halogenos {
+    background-color: #d221e7;
+}
+
+.color-gases-nobles {
+    background-color: #0ce9d5;
+}
+
+.color-actinidos {
+    background-color: #6a8f74;
+}

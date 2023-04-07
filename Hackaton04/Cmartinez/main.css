@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+  }
+  
+  
+  .zoom {
+    background-color: green;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+
+  /* Using table  */
+  .table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .table td {
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .table2 {
+    width: 100%;
+    table-layout: fixed;
+    font-weight: bold;
+  }
+
+  .table3 {
+    table-layout: fixed;
+    margin-top: -16.7%; 
+    margin-left:0px;
+    width: 16.8%;
+    height: 242px;
+  }
+
+  .table3 td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+  .alcalicos h1{
+    background-color: #f54439;
+  }
+
+  .alcalicos{
+    background-color: #f54439;
+  }
+
+  .alcalinoterreos h1{
+    background-color: #f99a46;
+  }
+
+  .alcalinoterreos{ 
+    background-color: #f99a46;
+  }
+
+  .metales h1{
+    background-color: #fcf911;
+  }
+
+  .metales{ 
+    background-color: #fcf911;
+  }
+
+  .transicion h1{
+    background-color: #b2f946;
+  }
+
+  .transicion{ 
+    background-color: #b2f946;
+  }
+  
+  .lantanidos h1{
+    background-color: #6fbfc7;
+  }
+
+  .lantanidos{ 
+    background-color: #6fbfc7;
+  }
+
+  .metaloides h1{
+    background-color: #53f71f;
+  }
+
+  .metaloides{ 
+    background-color: #53f71f;
+  }
+
+  .nometales h1{
+    background-color: #317bf5;
+  }
+
+  .nometales{ 
+    background-color: #317bf5;
+  }
+
+  .halogenos h1{
+    background-color: #d221e7;
+  }
+
+  .halogenos{ 
+    background-color: #d221e7;
+  }
+
+  .nobles h1{
+    background-color: #0ce9d5;
+  }
+
+  .nobles{ 
+    background-color: #0ce9d5;
+  }
+
+  .actinidos h1{
+    background-color: #6a8f74;
+  }
+
+  .actinidos{ 
+    background-color: #6a8f74;
+  }

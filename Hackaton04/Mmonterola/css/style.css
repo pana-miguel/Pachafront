@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 12px;
+  }
+  
+  th,
+  td {
+    border: 1px solid white;
+    padding: 31px;
+    text-align: center;
+  }
+  
+  .cell {
+    position: relative;
+  }
+  
+  .symbol {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .name {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .value {
+    position: absolute;
+    bottom: 55px;
+    right: 5px;
+  }
+
+  .value2 {
+    position: absolute;
+    bottom: 55px;
+    right: 52px;
+  }
+
+  .symbol2 {
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+  .value3 {
+    position: absolute;
+    bottom: 55px;
+    right: 15px;
+  }
+  
+  
+  

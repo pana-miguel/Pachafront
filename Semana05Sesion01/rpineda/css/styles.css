@@ -1,0 +1,125 @@
+/* .contenedor{
+    display:flex;
+    /* flex-direction:row-reverse; */
+/* flex-direction:column; */
+/* flex-direction:column-reverse; */
+/* flex-wrap:wrap; */
+/* flex-wrap:wrap-reverse; */
+/* flex-direction:row-reverse;
+    flex-wrap:wrap-reverse;  */
+/* flex-flow:row-reverse wrap-reverse; */
+/* flex-direction:row;
+flex-wrap:wrap;
+justify-content:flex-start; */
+/* flex-direction:row-reverse;
+flex-wrap:wrap;
+justify-content:flex-start; */
+
+/* flex-direction:row-reverse;
+flex-wrap:wrap;
+justify-content:flex-end; */
+
+/* flex-direction:row;
+flex-wrap:wrap;
+justify-content:center; */
+/* flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-between; */
+
+/* flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around; */
+
+/* height:240px;
+display:flex;
+flex-flow:row wrap;
+justify-content:flex-start;
+align-items:stretch; */
+
+/* height:240px;
+display:flex;
+flex-flow:row wrap;
+align-items:flex-start; */
+
+/* height:240px;
+display:flex;
+flex-flow:row wrap;
+align-items:flex-end; 
+
+height:240px;
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+
+}
+.elemento{
+    width:21%;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px;
+} */
+
+/* .contenedor{
+    color: aliceblue;
+    height:240px;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:baseline;
+    }
+    .elemento{
+    width:21%;
+    line-height:2rem;
+    }
+    .elemento:first-child{
+    line-height:4rem;
+    }
+    .elemento:nth-child(3){
+    font-size:1rem;
+    line-height:1.2rem;
+    }
+    .elemento:nth-child(6){
+    font-size:3rem;
+    line-height:5rem;
+    }
+    .elemento:last-child{
+    line-height:3rem;
+    } */
+
+.contenedor {
+    color: aliceblue;
+    height: 240px;
+    display: flex;
+    flex-flow: row wrap;
+    /* align-content:stretch; */
+    /* align-content:flex-start; */
+    /* align-content:flex-end; */
+    /* align-content: center; */
+    /* align-content:space-between; */
+    align-content: space-around;
+}
+
+/* .elemento {
+    width: 21%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.elemento:nth-child(even){
+    order:1;
+    } */
+
+.contenedor {
+    display: flex;
+}
+
+.elemento {
+    flex: 1 1 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.elemento:nth-child(4) {
+    flex-grow: 3;
+}

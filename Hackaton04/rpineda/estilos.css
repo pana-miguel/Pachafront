@@ -1,0 +1,291 @@
+.fila{
+    width: 1240px;
+    height: 65px;
+    position: relative;
+}
+.izquierda{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.izquierda >div{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+.derecha{
+    /*display: inline-block;*/
+    position: absolute;
+    right: 0;
+}
+.derecha >div{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+.metalesalcalicos{
+    background-color: #F54439;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.alcalinoterreos{
+    background-color: #F99A46;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.metales{
+    background-color: #FCF911;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.metalesdetransicion{
+    background-color: #B2F946;
+    width: 68px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.lantanidos{
+    background-color: #6FBFC7;
+    width: 67.5px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.metaloides{
+    background-color: #53F71F;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.nometales{
+    background-color: #317bf5;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.halogenos{
+    background-color: #D221E7;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.gasesnobles{
+    background-color: #0CE9D5;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.actinidos{
+    background-color: #6A8F74;
+    width: 67.5px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.numero1{
+    display: inline-block;
+    font-size: 0.8em;
+    position: relative;
+    left: 5px;
+    top: -10px;
+}
+.numero2{
+    display: inline-block;
+    font-size: 0.8em;
+    float: right;
+    position: relative;
+    right: 5px;
+    top: -10px;
+}
+.numero3{
+    display: inline-block;
+    font-size: 0.8em;
+    position: relative;
+    left: 15px;
+    top: -10px;
+}
+h1{
+    font-size: 1.4em;
+    text-align: center;
+    position: relative;
+    top: -35px;
+}
+.nombres{
+    font-size: 0.6em;
+    text-align: center;
+    position: relative;
+    top: -45px;
+}
+.nombres2{
+    font-size: 0.53em;
+    text-align: center;
+    position: relative;
+    top: -45px;
+}
+.lantanidos2{
+    background-color: #6FBFC7;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.actinidos2{
+    background-color: #6A8F74;
+    width: 66px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.rojo{
+    background-color: #F54439;
+    width: 105.32px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.naranja{
+    background-color: #F99A46;
+    width: 105.32px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.amarillo{
+    background-color: #FCF911;
+    width: 90px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.verde{
+    background-color: #B2F946;
+    width: 106px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.claro{
+    background-color: #6FBFC7;
+    width: 105.32px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.oscuro{
+    background-color: #53F71F;
+    width: 102px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.añil{
+    background-color: #317bf5;
+    width: 105.32px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.violeta{
+    background-color: #D221E7;
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.cyan{
+    background-color: #0CE9D5;
+    width: 103px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.raro{
+    background-color: #6A8F74;
+    width: 96px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+.tipos{
+    text-align: center;
+    font-size: 0.9em;
+}
+.actinidos3{
+    background-color: #6A8F74;
+    width: 68px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.lantanidos3{
+    background-color: #6FBFC7;
+    width: 68px;
+    height: 65px;
+    margin: 0;
+    border: 1px solid black;
+}
+.derecha2{
+    /*display: inline-block;*/
+    right: 0;
+    width: 1240px;
+    height: 65px;
+    position: relative;
+}
+.derecha2 >div{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+h2{
+    text-align: center;
+    margin: 0 0 0 300px;
+}
+.caja{
+    background-color: #53F71F;
+    width: 204px;
+    height: 170px;
+    margin: 0;
+    border: 1px solid black;
+    
+}
+.numero4{
+    display: inline-block;
+    font-size: 1.5em;
+    position: relative;
+    left: 5px;
+    top: -15px;
+}
+.numero5{
+    display: inline-block;
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    right: 5px;
+    top: -15px;
+}
+.titulo{
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: -55px;
+}
+.nombres3{
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: -55px;
+}
+div, p, h1{
+    width: auto;
+}

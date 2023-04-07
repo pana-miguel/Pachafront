@@ -1,0 +1,53 @@
+.titulo {
+    text-align: center;
+}
+
+.tabla td{
+    border: solid 1px black ;
+    text-align: center;
+    border-collapse: collapse;        
+}
+
+      
+.tabla .no-border{
+    border: none;
+}
+
+/* FILA 1 */
+.nometales{
+    background-color: #317BF5;
+}
+ .gasesnobles{
+    background-color: #0CE9D5;
+ }
+
+/* FILA 2 */
+.malcalicos{
+    background-color: #F54439;
+}
+
+.alcalinoterreos{
+    background-color: #F99A46;
+}
+.metaloides{
+    background-color:#53F71F;
+}
+.halogenos{
+    background-color: #D221E7;
+}
+/* FILA 3 */
+.metales{
+    background-color:#FCF911;
+}
+/* FILA 4 */
+.mtransicion{
+    background-color: #B2F946;
+}
+/* FILA 6 */
+.lantanidos{
+    background-color:#6FBFC7;
+}
+/* FILA 7 */
+.actinidos{
+    background-color: #6A8F74;
+}
