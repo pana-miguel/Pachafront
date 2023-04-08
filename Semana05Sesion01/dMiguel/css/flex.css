@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block: 0.5em;
+}
+h2{
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    /* define la direccion de los elementos, aca definimos el eje principla */
+    flex-direction: row; 
+    /* alinear los elementos de manera horizontal */
+    justify-content: center;
+    /* alinear los elementos de manera vertical */
+    /* align-items: flex-end; */
+    /* acomoda los elementos en varias lineas */
+    /* flex-wrap: wrap; */
+    /* sirver como direction y wrap */
+    flex-flow: row wrap;
+}
+
+.item{
+    display: grid;
+    transition: 1s ease;
+    margin: 0.5em 0.7em;
+}
+
+.item-info{
+    border: 1px solid #d0d0d0;
+    border-top-width: 0px;
+    border-radius: 0 0 0.25rem  0.25rem;
+    padding: 0.8em 0.8em;
+}
+
+.item-info-name{
+    font-weight: 900;
+}
+
+.item-info span{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-end: 0.5em;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.item img{
+    height: 17em;
+    border-radius: 0.25rem  0.25rem 0 0;
+}
+
+.item:hover, .item:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2em pink;
+    border-radius: 0.25rem
+}
+
+.item:hover .item-info{
+    border-color: transparent;
+}
+
+.icon{
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-info .icon:hover{
+    transition: 1s all;
+    background-color:#ebebeb;
+}
