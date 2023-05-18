@@ -69,12 +69,26 @@
         getPlaceholderInfo("Nota de Alumno",countInput,"dato")
         return countInput;
     }
+
+    function createInputArray() {
+        const text = `<div id="array_i"></div>`;
+        const createInputN = document.getElementById("form-ejercicio");
+        const countInput = parseInt(document.getElementById("createInput").value);
+        let resultado = "";
+        for (let i = 0; i < countInput; i++) {
+            resultado += text.replace(/_i/g, `${i}`);
+        }
+        createInputN.innerHTML = resultado;
+        getPlaceholderInfo("")
+    }
+
     function createInputonSet(labelName="") {
         const createInputN_ejer02 = document.getElementById("form-ejercicio");
         createInputN_ejer02.innerHTML = '<label for="createInput">'+labelName+'</label><input id="createInput" type="text" class="form-control"><a id="newInputs" class="btn btn-primary">Crear</a>';
         const newInput_ejer02 = document.getElementById("newInputs");
         newInput_ejer02.addEventListener('click',createInputsN);
     }
+
     switch (ejercicio_cont) {
         case "Ejercicio 02":
             createInputonSet("Cantidad de Numeros : ");
@@ -83,10 +97,16 @@
             createInputonSet("Cantidad de Numeros : ");
             break;
         case "Ejercicio 05":
-            createInputonSet("Dimencion del Array : ");
+            createInputonSet("Dimension del Array : ");
             break;
         case "Ejercicio 06":
-            createInputonSet("Dimencion del Arreglo : ");
+            createInputonSet("Dimension del Arreglo : ");
+            break; 
+        case "Ejercicio 08":
+            createInputonSet("Dimension del Arreglo bidimencional : ");
+            break;
+        case "Ejercicio 09":
+            createInputonSet("Dimension del Arreglo bidimencional : ");
             break;
     }
 </script>
