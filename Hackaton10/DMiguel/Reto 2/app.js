@@ -91,6 +91,15 @@ app.get("/ejercicio/7/", urlencodedParser, function (peticion, respuesta) {
     generarEjercicio(respuesta, titulo, parrafo, new_inputs, answ, 10)
 });
 
+app.get("/ejercicio/8/", urlencodedParser, function (peticion, respuesta) {
+    titulo = 'Ejercicio 08';
+    parrafo = 'Cree una función que tome una matriz de matrices con números. Devuelve una nueva matriz (única) con el mayor número de cada uno.findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]';
+    let datos = peticion.query;
+    let answ = ejercicio06(datos);
+    generarEjercicio(respuesta, titulo, parrafo, new_inputs, answ, 5);
+});
+
+
 app.listen(puerto);
 
 
