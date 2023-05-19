@@ -56,6 +56,18 @@
     var type_ejercicio = document.getElementById("type_ejercicio");
     let ejercicio_cont = type_ejercicio.textContent;
 
+    function getPlaceholderInfo(texto = "medida", cant = 2, id ="id"){
+        for (let i = 1; i < cant+1; i++) {
+            document.getElementById(id + i.toString()).placeholder = texto + " " + i.toString();
+        }
+    }
+
+    function getPlaceholderArray(texto = [], id ="id"){
+        for (let i = 1; i < texto.length+1; i++) {
+            document.getElementById(id + i.toString()).placeholder = texto[i-1];
+        }
+    }
+
     function createInputsN(){
         const text = '<label for="dato_i">Datos _i</label><input id="dato_i" name="dato_i" type="text" class="form-control">'
         const createInputN = document.getElementById("form-ejercicio");
@@ -71,7 +83,7 @@
     }
 
     function createInputArray() {
-        const text = `<div id="array_i"></div>`;
+        const text = `<div id="array_i"><h3>Array Dimencion _i</h3><label for="dato_i">Array _i</label><input id="dato_i" name="dato_i" type="text" class="form-control"></div>`;
         const createInputN = document.getElementById("form-ejercicio");
         const countInput = parseInt(document.getElementById("createInput").value);
         let resultado = "";
@@ -79,14 +91,17 @@
             resultado += text.replace(/_i/g, `${i}`);
         }
         createInputN.innerHTML = resultado;
-        getPlaceholderInfo("")
+        createInputN.innerHTML = '<a id="newInputs" class="btn btn-primary">Crear</a>';
+        getPlaceholderInfo("Vector ubicacion Array ",countInput,"dato");
+        const newArrayInArray = document.getElementById("newInputs");
+        newArrayInArray.addEventListener('click',createInputsN);
     }
 
-    function createInputonSet(labelName="") {
+    function createInputonSet(labelName="",createInput = createInputsN()) {
         const createInputN_ejer02 = document.getElementById("form-ejercicio");
         createInputN_ejer02.innerHTML = '<label for="createInput">'+labelName+'</label><input id="createInput" type="text" class="form-control"><a id="newInputs" class="btn btn-primary">Crear</a>';
         const newInput_ejer02 = document.getElementById("newInputs");
-        newInput_ejer02.addEventListener('click',createInputsN);
+        newInput_ejer02.addEventListener('click',createInput);
     }
 
     switch (ejercicio_cont) {
@@ -103,7 +118,7 @@
             createInputonSet("Dimension del Arreglo : ");
             break; 
         case "Ejercicio 08":
-            createInputonSet("Dimension del Arreglo bidimencional : ");
+            createInputonSet("Dimension del Arreglo bidimencional : ",createInputArray);
             break;
         case "Ejercicio 09":
             createInputonSet("Dimension del Arreglo bidimencional : ");
