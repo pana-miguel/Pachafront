@@ -1,5 +1,5 @@
 .body{
-    background-color: #2A3B47;
+    background-color: #1B262C;
     display: flex;
 }
 
@@ -8,11 +8,12 @@
     max-width: max-content;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4,auto);
     grid-template-areas:"inputResultado inputResultado"
                         "Opcion Operaciones"
-                        "Numeros Operaciones";
+                        "Numeros Operaciones"
+                        "historial historial";
 }
 
 .inputResultado{
@@ -34,6 +35,35 @@
     width: max-content;
 }
 
+.historial{
+    grid-area: historial;
+    margin: 1em 0;
+}
+
+
+.historial .fs-5{
+    color: #BBE1FA;
+}
+
+.historial .historialItem .list-group-item-action{
+    background-color: #0F4C75;
+    color: #BBE1FA;
+    display: flex;
+}
+
+.historial .historialItem .active{
+    background-color: #3282B8;
+    box-shadow: 1px 1px 5px #0a4268, -5px -5px 14px #1f1f1f;
+    font-weight: 700;
+    border-color: transparent;
+}
+
+.historial .bg-primary{
+    margin-inline-start: auto;
+    display: grid;
+    align-items: center;
+    background-color: #1B262C !important;
+}
 
 .contenido .btn{
     width: 4.3em;
@@ -44,14 +74,21 @@
     font-size : 1em;
 }
 .contenido .btn-outline-primary{
-    box-shadow: 1px 1px 5px #0d6efd, -5px -5px 14px #1f1f1f;
+    border-color: #0F4C75;
+    box-shadow: 1px 1px 5px #2189ce, -5px -5px 14px #1f1f1f;
 }
-.contenido .btn-outline-primary{
-    box-shadow: 1px 1px 5px #0d6efd, -5px -5px 14px #1f1f1f;
+.contenido .btn-outline-success{
+    border-color: #198754;
+    box-shadow: 1px 1px 5px #27c57b, -5px -5px 14px #1f1f1f;
 }
-.contenido .btn-outline-primary{
+.contenido .btn-outline-danger{
+    border-color: #dc3545;
+    box-shadow: 1px 1px 5px #f56271, -5px -5px 14px #1f1f1f;
+}
 
-    box-shadow: 1px 1px 5px #0d6efd, -5px -5px 14px #1f1f1f;
+.contenido .inputResultado{
+    border-color: #BBE1FA;
+    box-shadow: 1px 1px 5px #BBE1FA, -5px -5px 14px #1f1f1f;
 }
 
 .contenido .butonesNumeros{
