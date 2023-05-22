@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,8 @@
 </head>
 <body class="body">
     <div class="contenido">
-        <div class="form-floating">
-            <input class="form-control inputResultado" type="text" placeholder="Default input" aria-label="default input example">
+        <div class="input-group mb-3 inputResultado">
+            <input type="number" id="form-control" class="form-control">
         </div>
         <div class="botonesOpcion">
             <button type="button" class="btnC btn btn-outline-danger">C</button>
@@ -20,17 +20,17 @@
             <button type="button" class="btn% btn btn-outline-danger">%</button>
         </div>
         <div class="butonesNumeros">
-            <button type="button" class="btn9 btn btn-outline-primary">9</button>
-            <button type="button" class="btn8 btn btn-outline-primary">8</button>
-            <button type="button" class="btn7 btn btn-outline-primary">7</button>
-            <button type="button" class="btn6 btn btn-outline-primary">6</button>
-            <button type="button" class="btn5 btn btn-outline-primary">5</button>
-            <button type="button" class="btn4 btn btn-outline-primary">4</button>
-            <button type="button" class="btn3 btn btn-outline-primary">3</button>
-            <button type="button" class="btn2 btn btn-outline-primary">2</button>
-            <button type="button" class="btn1 btn btn-outline-primary">1</button>
-            <button type="button" class="btn0 btn btn-outline-primary">0</button>
-            <button type="button" class="btn_ btn btn-outline-primary">.</button>
+            <button type="button" id="btn9" class="btn9 btn btn-outline-primary">9</button>
+            <button type="button" id="btn8" class="btn8 btn btn-outline-primary">8</button>
+            <button type="button" id="btn7" class="btn7 btn btn-outline-primary">7</button>
+            <button type="button" id="btn6" class="btn6 btn btn-outline-primary">6</button>
+            <button type="button" id="btn5" class="btn5 btn btn-outline-primary">5</button>
+            <button type="button" id="btn4" class="btn4 btn btn-outline-primary">4</button>
+            <button type="button" id="btn3" class="btn3 btn btn-outline-primary">3</button>
+            <button type="button" id="btn2" class="btn2 btn btn-outline-primary">2</button>
+            <button type="button" id="btn1" class="btn1 btn btn-outline-primary">1</button>
+            <button type="button" id="btn0" class="btn0 btn btn-outline-primary">0</button>
+            <button type="button" id="btn_" class="btn_ btn btn-outline-primary">.</button>
         </div>
         <div class="botonesOperaciones">
             <button type="button" class="btnDiv btn btn-outline-success">/</button>
@@ -39,8 +39,36 @@
             <button type="button" class="btnSuma btn btn-outline-success">+</button>
             <button type="button" class="btnIgualdad btn btn-outline-success">=</button>
         </div>
+        <div class="list-group historial">
+            <p class="fs-5">
+                Historial de Operaciones
+            </p>
+            <span class="historialItem">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                    23 + 4 * 2
+                    <span class="badge bg-primary rounded-pill">16:34</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    34 / 4 + 2
+                    <span class="badge bg-primary rounded-pill">13:23</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    34 * 100 +  9
+                    <span class="badge bg-primary rounded-pill">12:53</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    54 % 2 * 6
+                    <span class="badge bg-primary rounded-pill">10:12</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    100 / 3 * 23
+                    <span class="badge bg-primary rounded-pill">07:24</span>
+                </a>
+            </span>
+            
+        </div>
     </div>
-    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./javascript/calculadora.js"></script>
 </html> 
