@@ -1,25 +1,26 @@
-const inputRpta = document.getElementById('form-control').value;
+const inputRpta = document.getElementById('form-control');
 
-const botonNumero9 = document.getElementById('btn9');
-const botonNumero8 = document.getElementById('btn8');
-const botonNumero7 = document.getElementById('btn7');
-const botonNumero6 = document.getElementById('btn6');
-const botonNumero5 = document.getElementById('btn5');
-const botonNumero4 = document.getElementById('btn4');
-const botonNumero3 = document.getElementById('btn3');
-const botonNumero2 = document.getElementById('btn2');
-const botonNumero1 = document.getElementById('btn1');
-const botonNumero0 = document.getElementById('btn0');
-const botonNumero_ = document.getElementById('btn_');
+var botonesNumber = document.querySelectorAll('.btn-outline-primary');
+var botonesClicados = [];
 
-function actionPressNumberButton(botonNumero = botonNumero9) {
-    if (botonNumero.addEventListener('click')){
-        numeroButton  = botonNumero.innerHTML;
-        return numeroButton
-    }
+var botonesOperaciones = document.querySelectorAll('.btn-outline-success');
+var axuNumeroInput;
+var axuFirstNumber = true;
+
+for (var i = 0; i < botonesNumber.length; i++) {
+  botonesNumber[i].addEventListener('click', function() {
+    botonesClicados.push(this.textContent);
+    inputRpta.value = inputRpta.value*10 + parseInt(this.textContent);
+  });
 }
 
-function textInRpta(newNumber = ""){
-    inputRpta = inputRpta + newNumber;
-    document.getElementById('form-control').value = inputRpta;
+console.log(botonesOperaciones.length)
+
+for (var i = 0; i < botonesOperaciones.length; i++) {
+    botonesOperaciones[i].addEventListener('click', function() {
+        console.log("contenido de boton : "+this.textContent);
+        console.log(typeof(inputRpta.value))
+        inputRpta.value = inputRpta.value + this.textContent;
+    });
 }
+

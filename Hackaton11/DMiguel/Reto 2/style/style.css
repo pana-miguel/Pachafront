@@ -20,6 +20,11 @@
     grid-area: inputResultado;
 }
 
+.inputResultado .toast{
+    width: inherit;
+    border: transparent
+}
+
 .botonesOpcion{
     grid-area: Opcion;
 }
@@ -58,7 +63,7 @@
     border-color: transparent;
 }
 
-.historial .bg-primary{
+.bg-primary{
     margin-inline-start: auto;
     display: grid;
     align-items: center;
