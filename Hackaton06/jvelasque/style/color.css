@@ -1,1 +1,77 @@
-.contenedor_header{display:flex;justify-content:space-between;position:absolute;width:366px;height:28px;left:917px;top:51px;font-family:"Helvetica";font-style:normal;font-weight:700;font-size:20px;line-height:28px;letter-spacing:.04em;color:#1f3f68}.contenerdor_header1{position:absolute;width:1366px;height:250px;left:0px;top:130px;background:linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%)}.contenerdor_header1 .titulo{position:absolute;width:305px;height:74px;left:531px;top:180px;font-family:"Arial";font-style:normal;font-weight:400;font-size:44px;line-height:168%;text-align:center;letter-spacing:.04em;color:#fff}.contenerdor_header1 .parrafo{position:absolute;width:780px;height:60px;left:293px;top:270px;font-family:"Arial";font-style:normal;font-weight:400;font-size:20px;line-height:30px;text-align:center;letter-spacing:.04em;color:rgba(255,255,255,.78)}.buscador{position:absolute;width:99px;height:18px;left:285px;top:456px;font-family:"Arial";font-style:normal;font-weight:400;font-size:16px;line-height:18px;color:#1f3f68;opacity:.6}/*# sourceMappingURL=color.css.map */
+
+.contenedor_header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 366px;
+  height: 28px;
+  left: 917px;
+  top: 51px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contenerdor_header1 {
+  /* banner */
+  position: absolute;
+  width: 1366px;
+  height: 250px;
+  left: 0px;
+  top: 130px;
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+}
+.contenerdor_header1 .titulo {
+  /* Blog Afrianska */
+  position: absolute;
+  width: 305px;
+  height: 74px;
+  left: 531px;
+  top: 180px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 168%;
+  /* identical to box height, or 168% */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.contenerdor_header1 .parrafo {
+  position: absolute;
+  width: 780px;
+  height: 60px;
+  left: 293px;
+  top: 270px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.buscador {
+  position: absolute;
+  width: 99px;
+  height: 18px;
+  left: 285px;
+  top: 456px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* Blue_01 */
+  color: #1F3F68;
+  opacity: 0.6;
+}/*# sourceMappingURL=color.css.map */

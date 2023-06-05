@@ -1,1 +1,157 @@
-@import"https://fonts.googleapis.com/css2?family=Abel&display=swap";@import"https://fonts.googleapis.com/css2?family=Alef&display=swap";@import"https://fonts.googleapis.com/css2?family=Abel&display=swap";@import"https://fonts.googleapis.com/css2?family=Alef&display=swap";.logo-1{font-size:1.2em;width:1.3em;height:1.3em;border:.09em solid #316099;border-radius:50%;box-shadow:-9px 0px 0px 0px #316099;color:#316099;font-family:"Abel",sans-serif;display:flex;align-items:center;justify-content:center}.logo-2{width:1.3em;height:1.3em;font-size:1.2em;border:.09em solid #316099;border-radius:50%;box-shadow:-9px 0px 0px 0px #98c3e8;color:#316099;font-family:"Abel",sans-serif;display:flex;align-items:center;justify-content:center}p,a,h1,h2,h3,h4,h5,h6{font-style:normal;text-decoration:none;color:#000;letter-spacing:.04em}h1,h2,h3,h4,h5,h6{font-weight:700}.title-principal{font-family:"Arial";color:#fff;font-size:2em;font-style:normal;font-weight:100}.title-secondary{font-family:"Arial";color:#fff;font-size:1em;font-weight:100;width:30em;margin:1em auto;opacity:.7}.title-h1{color:#1f3f68;font-family:"Helvetica"}.title-h2{color:#356ead;font-family:"Helvetica";font-size:1.2em}.title-h3{color:#1f3f68;font-family:"Helvetica";font-size:.9em}p{font-family:"Arial",sans-serif}nav{font-family:"Helvetica"}nav a{margin-inline:.7em}.nav-opc-i{color:#1f3f68;font-weight:600}.nav-opc{color:#000}.post-fecha{color:rgba(0,0,0,.4);font-weight:400}.name-logo,.title-footer,.option-footer{color:#fff;font-family:"Alef",sans-serif;font-weight:500}.name-logo,.title-footer{font-weight:600}.title-footer{font-size:1.2em}.option-footer{font-size:1em}.derechos{color:#fff;opacity:.5}body{width:100%}header{background-color:#fff;padding:1em 0em;display:flex;justify-content:space-between;align-items:center;position:fixed;z-index:10000;width:100%}header nav{margin:0 2em}header span{margin:0 1em}main{-webkit-padding-before:3.75em;padding-block-start:3.75em}main .header__presentation{padding-block:4em;text-align:center;background-image:url("../../img/Mask Group.png");background-size:cover}/*# sourceMappingURL=nav.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
+.logo-1 {
+  font-size: 1.2em;
+  width: 1.3em;
+  height: 1.3em;
+  border: 0.09em solid #316099;
+  border-radius: 50%;
+  box-shadow: -9px 0px 0px 0px #316099;
+  color: #316099;
+  font-family: "Abel", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-2 {
+  width: 1.3em;
+  height: 1.3em;
+  font-size: 1.2em;
+  border: 0.09em solid #316099;
+  border-radius: 50%;
+  box-shadow: -9px 0px 0px 0px #98C3E8;
+  color: #316099;
+  font-family: "Abel", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 0.04em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.title-principal {
+  font-family: "Arial";
+  color: #fff;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.title-secondary {
+  font-family: "Arial";
+  color: #fff;
+  font-size: 1em;
+  font-weight: 100;
+  width: 30em;
+  margin: 1em auto;
+  opacity: 0.7;
+}
+
+.title-h1 {
+  color: #1F3F68;
+  font-family: "Helvetica";
+}
+
+.title-h2 {
+  color: #356EAD;
+  font-family: "Helvetica";
+  font-size: 1.2em;
+}
+
+.title-h3 {
+  color: #1F3F68;
+  font-family: "Helvetica";
+  font-size: 0.9em;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+}
+
+nav {
+  font-family: "Helvetica";
+}
+nav a {
+  margin-inline: 0.7em;
+}
+
+.nav-opc-i {
+  color: #1F3F68;
+  font-weight: 600;
+}
+
+.nav-opc {
+  color: #000;
+}
+
+.post-fecha {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+
+.name-logo, .title-footer, .option-footer {
+  color: #fff;
+  font-family: "Alef", sans-serif;
+  font-weight: 500;
+}
+
+.name-logo, .title-footer {
+  font-weight: 600;
+}
+
+.title-footer {
+  font-size: 1.2em;
+}
+
+.option-footer {
+  font-size: 1em;
+}
+
+.derechos {
+  color: #fff;
+  opacity: 0.5;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  padding: 1em 0em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+}
+header nav {
+  margin: 0 2em;
+}
+header span {
+  margin: 0 1em;
+}
+
+main {
+  -webkit-padding-before: 3.75em;
+          padding-block-start: 3.75em;
+}
+main .header__presentation {
+  padding-block: 4em;
+  text-align: center;
+  background-image: url("../../img/Mask Group.png");
+  background-size: cover;
+}/*# sourceMappingURL=nav.css.map */

@@ -1,1 +1,23 @@
-.title{margin:20px auto;text-align:center;text-transform:uppercase}body{max-width:950px;margin:0 auto}.ejercicios-wrapper{max-width:200px;margin:0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center}.ejercicios-wrapper button{margin-bottom:20px;cursor:pointer}/*# sourceMappingURL=style.css.map */
+.title {
+  margin: 20px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.ejercicios-wrapper {
+  max-width: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ejercicios-wrapper button {
+  margin-bottom: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

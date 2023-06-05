@@ -1,1 +1,99 @@
-.all_posts{width:90%;max-width:50%;margin:2em auto;display:grid;grid-gap:1em;grid-template-columns:repeat(3, auto);grid-template-rows:repeat(3, auto);grid-template-areas:"h2 h2 h2" "post1 post1 post1" "post2 post3 post4"}.all_posts .title-h2{-webkit-margin-before:3em;margin-block-start:3em}.all_posts p{opacity:.6}.all_posts section span{display:flex;justify-content:space-between;align-items:center;-webkit-margin-before:1em;margin-block-start:1em}.all_posts section span p{opacity:1}.all_posts section span h3,.all_posts section span p{font-size:.8em}.all_posts section span .icons{display:flex}.all_posts section span .icons i{margin-inline:.3em}.all_posts section span .post-fecha{-webkit-margin-before:.5em;margin-block-start:.5em}.title-h2{grid-area:h2}.all_posts .post__1{width:100%;grid-area:post1;display:grid;grid-gap:1.5em;grid-template-columns:repeat(3, auto);grid-template-rows:repeat(3, auto);grid-template-areas:"title image image" "texto image image" "info_p image image"}.all_posts .post__1 .title-h1{grid-area:title}.all_posts .post__1 p{grid-area:texto}.all_posts .post__1 span{grid-area:info_p}.all_posts .post__1 .img-principal{grid-area:image}.post__2,.post__3,.post__4{width:100%;display:grid;grid-gap:1em;grid-template-rows:repeat(4, auto);grid-template-areas:"image" "title" "texto" "info_p"}.post__2 .img-secundary,.post__3 .img-secundary,.post__4 .img-secundary{grid-area:image}.post__2 .title-h1,.post__3 .title-h1,.post__4 .title-h1{font-size:1.5em;grid-area:title}.post__2 p,.post__3 p,.post__4 p{grid-area:texto}.post__2 span,.post__3 span,.post__4 span{grid-area:info_p}.all_posts .post__2{grid-area:post2}.all_posts .post__3{grid-area:post3}.all_posts .post__4{grid-area:post4}/*# sourceMappingURL=posts.css.map */
+.all_posts {
+  width: 90%;
+  max-width: 50%;
+  margin: 2em auto;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "h2 h2 h2" "post1 post1 post1" "post2 post3 post4";
+}
+.all_posts .title-h2 {
+  -webkit-margin-before: 3em;
+          margin-block-start: 3em;
+}
+.all_posts p {
+  opacity: 0.6;
+}
+.all_posts section span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+}
+.all_posts section span p {
+  opacity: 1;
+}
+.all_posts section span h3, .all_posts section span p {
+  font-size: 0.8em;
+}
+.all_posts section span .icons {
+  display: flex;
+}
+.all_posts section span .icons i {
+  margin-inline: 0.3em;
+}
+.all_posts section span .post-fecha {
+  -webkit-margin-before: 0.5em;
+          margin-block-start: 0.5em;
+}
+
+.title-h2 {
+  grid-area: h2;
+}
+
+.all_posts .post__1 {
+  width: 100%;
+  grid-area: post1;
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "title image image" "texto image image" "info_p image image";
+}
+.all_posts .post__1 .title-h1 {
+  grid-area: title;
+}
+.all_posts .post__1 p {
+  grid-area: texto;
+}
+.all_posts .post__1 span {
+  grid-area: info_p;
+}
+.all_posts .post__1 .img-principal {
+  grid-area: image;
+}
+
+.post__2, .post__3, .post__4 {
+  width: 100%;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "image" "title" "texto" "info_p";
+}
+.post__2 .img-secundary, .post__3 .img-secundary, .post__4 .img-secundary {
+  grid-area: image;
+}
+.post__2 .title-h1, .post__3 .title-h1, .post__4 .title-h1 {
+  font-size: 1.5em;
+  grid-area: title;
+}
+.post__2 p, .post__3 p, .post__4 p {
+  grid-area: texto;
+}
+.post__2 span, .post__3 span, .post__4 span {
+  grid-area: info_p;
+}
+
+.all_posts .post__2 {
+  grid-area: post2;
+}
+
+.all_posts .post__3 {
+  grid-area: post3;
+}
+
+.all_posts .post__4 {
+  grid-area: post4;
+}/*# sourceMappingURL=posts.css.map */

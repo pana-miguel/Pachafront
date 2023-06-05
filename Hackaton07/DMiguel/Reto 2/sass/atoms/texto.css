@@ -1,1 +1,94 @@
-@import"https://fonts.googleapis.com/css2?family=Abel&display=swap";@import"https://fonts.googleapis.com/css2?family=Alef&display=swap";p,a,h1,h2,h3,h4,h5,h6{font-style:normal;text-decoration:none;color:#000;letter-spacing:.04em}h1,h2,h3,h4,h5,h6{font-weight:700}.title-principal{font-family:"Arial";color:#fff;font-size:2em;font-style:normal;font-weight:100}.title-secondary{font-family:"Arial";color:#fff;font-size:1em;font-weight:100;margin:1em auto;opacity:.7}.title-h1{color:#1f3f68;font-family:"Helvetica"}.title-h2{color:#356ead;font-family:"Helvetica";font-size:1.2em}.title-h3{color:#1f3f68;font-family:"Helvetica";font-size:.9em}p{font-family:"Arial",sans-serif}nav{font-family:"Helvetica"}nav a{margin-inline:.7em}.nav-opc-i{color:#1f3f68;font-weight:600}.nav-opc{color:#000}.post-fecha{color:rgba(0,0,0,.4);font-weight:400}.name-logo,.title-footer,.option-footer{color:#fff;font-family:"Alef",sans-serif;font-weight:500}.name-logo,.title-footer{font-weight:600}.title-footer{font-size:1.2em}.option-footer{font-size:1em}.derechos{color:#fff;opacity:.5}/*# sourceMappingURL=texto.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 0.04em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.title-principal {
+  font-family: "Arial";
+  color: #fff;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.title-secondary {
+  font-family: "Arial";
+  color: #fff;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 1em auto;
+  opacity: 0.7;
+}
+
+.title-h1 {
+  color: #1F3F68;
+  font-family: "Helvetica";
+}
+
+.title-h2 {
+  color: #356EAD;
+  font-family: "Helvetica";
+  font-size: 1.2em;
+}
+
+.title-h3 {
+  color: #1F3F68;
+  font-family: "Helvetica";
+  font-size: 0.9em;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+}
+
+nav {
+  font-family: "Helvetica";
+}
+nav a {
+  margin-inline: 0.7em;
+}
+
+.nav-opc-i {
+  color: #1F3F68;
+  font-weight: 600;
+}
+
+.nav-opc {
+  color: #000;
+}
+
+.post-fecha {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+
+.name-logo, .title-footer, .option-footer {
+  color: #fff;
+  font-family: "Alef", sans-serif;
+  font-weight: 500;
+}
+
+.name-logo, .title-footer {
+  font-weight: 600;
+}
+
+.title-footer {
+  font-size: 1.2em;
+}
+
+.option-footer {
+  font-size: 1em;
+}
+
+.derechos {
+  color: #fff;
+  opacity: 0.5;
+}/*# sourceMappingURL=texto.css.map */

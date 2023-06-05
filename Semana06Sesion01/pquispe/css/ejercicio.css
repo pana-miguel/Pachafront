@@ -1,1 +1,106 @@
-@import"https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap";*{box-sizing:border-box;padding:0;margin:0}a{color:#000;text-decoration:none}section{min-height:20em}h1{font-size:calc(200% + 1em);color:#000}h2{font-size:calc(100% + 1em);color:#000}h3{font-size:calc(50% + 1em);color:#000}body{display:grid;justify-content:center;grid-template-columns:100%;font-family:"Nunito",sans-serif;font-size:1em;font-weight:400}header{background-color:#eee;position:relative;padding:15px}header a img{position:absolute;width:10%;transition:filter .4s}header a img:hover{filter:drop-shadow(0 0 1.5px #333)}header a h1,header h2{text-align:center}nav{background-color:#eee;margin-top:12px;padding:8px}nav ul{display:flex;justify-content:center;list-style:none}nav ul li:first-child{font-size:110%;text-transform:uppercase;font-weight:700}nav ul li:not(li:last-child){padding-right:10px}nav ul li a{font-size:110%;text-transform:uppercase;font-weight:400;transition:font-weight .4s,color .4s}nav ul li a:hover{font-weight:700;color:red}footer div{background-color:#eee;display:flex;justify-content:center;padding:8px}footer div a:not(a:last-child){padding-right:10px}footer div a img{width:3em}footer p{background-color:#eee;font-size:80%;text-align:center;margin-top:12px;padding:8px}/*# sourceMappingURL=ejercicio.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+section {
+  min-height: 20em;
+}
+
+h1 {
+  font-size: calc(200% + 1em);
+  color: #000;
+}
+
+h2 {
+  font-size: calc(100% + 1em);
+  color: #000;
+}
+
+h3 {
+  font-size: calc(50% + 1em);
+  color: #000;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+header {
+  background-color: #eee;
+  position: relative;
+  padding: 15px;
+}
+header a img {
+  position: absolute;
+  width: 10%;
+  transition: filter 0.4s;
+}
+header a img:hover {
+  filter: drop-shadow(0 0 1.5px #333);
+}
+header a h1,
+header h2 {
+  text-align: center;
+}
+
+nav {
+  background-color: #eee;
+  margin-top: 12px;
+  padding: 8px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li:first-child {
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+nav ul li:not(li:last-child) {
+  padding-right: 10px;
+}
+nav ul li a {
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: font-weight 0.4s, color 0.4s;
+}
+nav ul li a:hover {
+  font-weight: 700;
+  color: #ff0000;
+}
+
+footer div {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+footer div a:not(a:last-child) {
+  padding-right: 10px;
+}
+footer div a img {
+  width: 3em;
+}
+footer p {
+  background-color: #eee;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 12px;
+  padding: 8px;
+}/*# sourceMappingURL=ejercicio.css.map */

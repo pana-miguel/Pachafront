@@ -1,1 +1,70 @@
-footer{background:#316099;width:100%;padding-block:3em;display:flex;flex-direction:column;align-items:center;text-align:start}footer .footer-1{justify-content:space-between;padding-block:0 5em;width:90%;max-width:55%;display:grid;grid-template-columns:repeat(2, auto);grid-template-rows:repeat(2, auto);grid-template-areas:"title button" "text button"}footer .footer-1 .title-principal{grid-area:title}footer .footer-1 .title-secondary{grid-area:text;opacity:.6}footer .footer-1 .button{grid-area:button;display:flex;justify-content:center;align-items:center}footer .hr{display:block;width:100%;-webkit-border-after:.1em solid rgba(255,255,255,.2901960784);border-block-end:.1em solid rgba(255,255,255,.2901960784)}footer .footer-2{justify-content:center;padding-block:5em 0;margin:0 auto;width:90%;max-width:50%;display:grid;grid-gap:2em;grid-template-columns:repeat(3, auto);grid-template-rows:repeat(2, auto);grid-template-areas:"info-e about redes" "derechos derechos derechos"}footer .footer-2 .info-emp{grid-area:info-e}footer .footer-2 .about-us{grid-area:about}footer .footer-2 .redes{grid-area:redes}footer .footer-2 .derechos{grid-area:derechos}footer .footer-2 div p{color:#fff;opacity:.7;margin:.4em .3em}footer .footer-2 div span{display:flex}/*# sourceMappingURL=footer.css.map */
+footer {
+  background: #316099;
+  width: 100%;
+  padding-block: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+footer .footer-1 {
+  justify-content: space-between;
+  padding-block: 0 5em;
+  width: 90%;
+  max-width: 55%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "title button" "text button";
+}
+footer .footer-1 .title-principal {
+  grid-area: title;
+}
+footer .footer-1 .title-secondary {
+  grid-area: text;
+  opacity: 0.6;
+}
+footer .footer-1 .button {
+  grid-area: button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .hr {
+  display: block;
+  width: 100%;
+  -webkit-border-after: 0.1em solid rgba(255, 255, 255, 0.2901960784);
+          border-block-end: 0.1em solid rgba(255, 255, 255, 0.2901960784);
+}
+footer .footer-2 {
+  justify-content: center;
+  padding-block: 5em 0;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 50%;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "info-e about redes" "derechos derechos derechos";
+}
+footer .footer-2 .info-emp {
+  grid-area: info-e;
+}
+footer .footer-2 .about-us {
+  grid-area: about;
+}
+footer .footer-2 .redes {
+  grid-area: redes;
+}
+footer .footer-2 .derechos {
+  grid-area: derechos;
+}
+footer .footer-2 div p {
+  color: #fff;
+  opacity: 0.7;
+  margin: 0.4em 0.3em;
+}
+footer .footer-2 div span {
+  display: flex;
+}/*# sourceMappingURL=footer.css.map */

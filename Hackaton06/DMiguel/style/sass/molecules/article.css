@@ -1,1 +1,70 @@
-.all_article{width:90%;max-width:50%;margin:2em auto;display:grid;grid-gap:1.5em;grid-template-rows:repeat(7, auto);grid-template-areas:"title1" "title2" "art_1" "art_2" "art_3" "art_4" "art_5"}.all_article .tlh2{grid-area:title1;text-align:end;-webkit-padding-after:.5em;padding-block-end:.5em;-webkit-border-after:.08em solid rgba(0,0,0,.4823529412);border-block-end:.08em solid rgba(0,0,0,.4823529412)}.all_article .tlh2_{grid-area:title2}.all_article .article__1{grid-area:art_1}.all_article .article__2{grid-area:art_2}.all_article .article__3{grid-area:art_3}.all_article .article__4{grid-area:art_4}.all_article .article__5{grid-area:art_5}.all_article section{width:100%;display:grid;grid-gap:1em;font-size:.9em;grid-template-columns:repeat(2, auto);grid-template-rows:repeat(3, auto);grid-template-areas:"image title" "image texto" "image info_p"}.all_article section .img-secundary{grid-area:image}.all_article section .title-h2{grid-area:title;color:#1f3f68}.all_article section p{grid-area:texto;opacity:.6}.all_article section span{grid-area:info_p;display:flex;justify-content:space-between;align-items:center}.all_article section span .icons{display:flex}.all_article section span .icons i{margin-inline:.3em}.all_article section span p{opacity:1}/*# sourceMappingURL=article.css.map */
+.all_article {
+  width: 90%;
+  max-width: 50%;
+  margin: 2em auto;
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas: "title1" "title2" "art_1" "art_2" "art_3" "art_4" "art_5";
+}
+.all_article .tlh2 {
+  grid-area: title1;
+  text-align: end;
+  -webkit-padding-after: 0.5em;
+          padding-block-end: 0.5em;
+  -webkit-border-after: 0.08em solid rgba(0, 0, 0, 0.4823529412);
+          border-block-end: 0.08em solid rgba(0, 0, 0, 0.4823529412);
+}
+.all_article .tlh2_ {
+  grid-area: title2;
+}
+.all_article .article__1 {
+  grid-area: art_1;
+}
+.all_article .article__2 {
+  grid-area: art_2;
+}
+.all_article .article__3 {
+  grid-area: art_3;
+}
+.all_article .article__4 {
+  grid-area: art_4;
+}
+.all_article .article__5 {
+  grid-area: art_5;
+}
+.all_article section {
+  width: 100%;
+  display: grid;
+  grid-gap: 1em;
+  font-size: 0.9em;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "image title" "image texto" "image info_p";
+}
+.all_article section .img-secundary {
+  grid-area: image;
+}
+.all_article section .title-h2 {
+  grid-area: title;
+  color: #1F3F68;
+}
+.all_article section p {
+  grid-area: texto;
+  opacity: 0.6;
+}
+.all_article section span {
+  grid-area: info_p;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all_article section span .icons {
+  display: flex;
+}
+.all_article section span .icons i {
+  margin-inline: 0.3em;
+}
+.all_article section span p {
+  opacity: 1;
+}/*# sourceMappingURL=article.css.map */

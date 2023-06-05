@@ -1,1 +1,74 @@
-@import"https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap";*{margin:0;padding:0;border:0}.cartelera{width:50%;max-width:60%;margin:20px auto;display:grid;grid-gap:20px;grid-template-columns:repeat(3, 1fr);grid-template-rows:repeat(2, auto);grid-template-areas:"post-1 post-2 post-3" "post-4 post-5   post-6"}.cartelera .cartelera__post-1{grid-area:post-1}.cartelera .cartelera__post-2{grid-area:post-2}.cartelera .cartelera__post-3{grid-area:post-3}.cartelera .cartelera__post-4{grid-area:post-4}.cartelera .cartelera__post-5{grid-area:post-5}.cartelera .cartelera__post-6{grid-area:post-6}.cartelera div img{width:100%;padding-block:.3em}.cartelera div h2,.cartelera div p{font-family:Lato,sans-serif;padding-block:.4em}.cartelera div h2{font-size:1.2em}@media only screen and (max-width: 600px){.cartelera{grid-template-columns:repeat(1, 1fr);grid-template-rows:repeat(6, auto);grid-template-areas:"post-1" "post-2" "post-3" "post-4" "post-5" "post-6"}}@media only screen and (min-width: 600px){.cartelera{grid-template-columns:repeat(1, 1fr);grid-template-rows:repeat(6, auto);grid-template-areas:"post-1" "post-2" "post-3" "post-4" "post-5" "post-6"}}@media only screen and (min-width: 768px){.cartelera{grid-template-columns:repeat(2, 1fr);grid-template-rows:repeat(3, auto);grid-template-areas:"post-1 post-2" "post-3 post-4" "post-5 post-6"}}@media only screen and (min-width: 992px){.cartelera{grid-template-columns:repeat(3, 1fr);grid-template-rows:repeat(2, auto);grid-template-areas:"post-1 post-2 post-3" "post-4 post-5   post-6"}}/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.cartelera {
+  width: 50%;
+  max-width: 60%;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "post-1 post-2 post-3" "post-4 post-5   post-6";
+}
+.cartelera .cartelera__post-1 {
+  grid-area: post-1;
+}
+.cartelera .cartelera__post-2 {
+  grid-area: post-2;
+}
+.cartelera .cartelera__post-3 {
+  grid-area: post-3;
+}
+.cartelera .cartelera__post-4 {
+  grid-area: post-4;
+}
+.cartelera .cartelera__post-5 {
+  grid-area: post-5;
+}
+.cartelera .cartelera__post-6 {
+  grid-area: post-6;
+}
+.cartelera div img {
+  width: 100%;
+  padding-block: 0.3em;
+}
+.cartelera div h2, .cartelera div p {
+  font-family: Lato, sans-serif;
+  padding-block: 0.4em;
+}
+.cartelera div h2 {
+  font-size: 1.2em;
+}
+@media only screen and (max-width: 600px) {
+  .cartelera {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "post-1" "post-2" "post-3" "post-4" "post-5" "post-6";
+  }
+}
+@media only screen and (min-width: 600px) {
+  .cartelera {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "post-1" "post-2" "post-3" "post-4" "post-5" "post-6";
+  }
+}
+@media only screen and (min-width: 768px) {
+  .cartelera {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "post-1 post-2" "post-3 post-4" "post-5 post-6";
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cartelera {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "post-1 post-2 post-3" "post-4 post-5   post-6";
+  }
+}/*# sourceMappingURL=style.css.map */

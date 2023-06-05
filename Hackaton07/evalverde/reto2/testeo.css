@@ -1,1 +1,18 @@
-.cuadrado{background-color:aqua;width:1000px;height:1000px}@media only screen and (max-width: 800px){.cuadrado{width:500px;height:500px}}@media only screen and (max-width: 600px){.cuadrado{width:250px;height:250px}}/*# sourceMappingURL=testeo.css.map */
+.cuadrado {
+  background-color: aqua;
+  width: 1000px;
+  height: 1000px;
+}
+
+@media only screen and (max-width: 800px) {
+  .cuadrado {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cuadrado {
+    width: 250px;
+    height: 250px;
+  }
+}/*# sourceMappingURL=testeo.css.map */

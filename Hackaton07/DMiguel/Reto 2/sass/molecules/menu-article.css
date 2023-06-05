@@ -1,1 +1,20 @@
-.menu-article{width:90%;max-width:55%;margin:2em auto;display:grid}.menu-article span{display:flex;align-items:center;justify-content:space-between;color:#356ead}.menu-article span div{display:flex;align-items:center;justify-content:center}.menu-article span div p{color:#356ead}/*# sourceMappingURL=menu-article.css.map */
+.menu-article {
+  width: 90%;
+  max-width: 55%;
+  margin: 2em auto;
+  display: grid;
+}
+.menu-article span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #356EAD;
+}
+.menu-article span div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-article span div p {
+  color: #356EAD;
+}/*# sourceMappingURL=menu-article.css.map */

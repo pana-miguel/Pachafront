@@ -1,1 +1,96 @@
-body{font-family:Arial,sans-serif;margin:20px}.container{max-width:950px;margin:0 auto;padding:0 50px}.content{padding-top:100px;padding-bottom:100px}h1{text-align:center}form{display:flex;max-width:500px;margin:0 auto 20px}form input{border-radius:10px 0 0 10px;border-color:#000;border:1px solid #000;outline:none;border-right:0;padding:10px 20px;flex:1}form button{border-radius:0 10px 10px 0;border:1px solid #000;border-left:0;padding:5px 20px;text-transform:uppercase;font-size:10px;letter-spacing:.5px;cursor:pointer;background-color:#000;color:#fff;transform:box-shadow ease .25s}form button:hover{box-shadow:inset 0 3px 5px rgba(255,255,255,.7)}#todo-list{max-width:500px;margin:0 auto;background-color:#dadab8;border-radius:5px;box-sizing:border-box}#todo-list ul{padding-left:0;margin:0}#todo-list li{list-style-type:none;display:flex;flex-wrap:wrap;align-items:center;padding:10px}#todo-list li input{width:10%;margin:0}#todo-list li span{width:70%;font-size:13px}#todo-list li button{width:20%;border:0;border-radius:8px;background-color:#fff;box-shadow:0 3px 5px rgba(0,0,0,.2);cursor:pointer}#todo-list li button:hover{box-shadow:inset 0 3px 5px rgba(0,0,0,.2)}#todo-list li:not(:last-child){margin-bottom:5px;border-bottom:1px solid rgba(31,29,29,.3)}.completed{text-decoration:line-through}/*# sourceMappingURL=main.css.map */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+form input {
+  border-radius: 10px 0 0 10px;
+  border-color: black;
+  border: 1px solid black;
+  outline: none;
+  border-right: 0;
+  padding: 10px 20px;
+  flex: 1;
+}
+form button {
+  border-radius: 0 10px 10px 0;
+  border: 1px solid black;
+  border-left: 0;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transform: box-shadow ease 0.25s;
+}
+form button:hover {
+  box-shadow: inset 0 3px 5px rgba(255, 255, 255, 0.7);
+}
+
+#todo-list {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(218, 218, 184);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#todo-list ul {
+  padding-left: 0;
+  margin: 0;
+}
+#todo-list li {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+#todo-list li input {
+  width: 10%;
+  margin: 0;
+}
+#todo-list li span {
+  width: 70%;
+  font-size: 13px;
+}
+#todo-list li button {
+  width: 20%;
+  border: 0;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#todo-list li button:hover {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+#todo-list li:not(:last-child) {
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(31, 29, 29, 0.3);
+}
+
+.completed {
+  text-decoration: line-through;
+}/*# sourceMappingURL=main.css.map */

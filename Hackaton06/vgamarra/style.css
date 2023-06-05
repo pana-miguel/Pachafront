@@ -1,1 +1,253 @@
-*{box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif}.menu{display:grid;grid-template-columns:5fr 1fr 1fr 1fr;height:60px;justify-items:center;align-items:center}.menu .logo{border:2px solid #316099;border-radius:50%;font-weight:700;font-size:20px;letter-spacing:0 .4em;color:#1f3f68;padding:10px 10px 10px 10px;justify-self:start;margin-left:20px}.menu .home{font-weight:700;font-size:20px;letter-spacing:0 .4em;color:#1f3f68}.menu .entertaiment,.menu .sports{font-weight:700;font-size:20px;letter-spacing:0 .4em;color:#000}.frontpage{background:linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);color:#fff;padding-top:30px;padding-bottom:30px}.frontpage .blog-title{font-style:normal;font-weight:400;font-size:44px;letter-spacing:0 .4em;text-align:center;margin-bottom:20px}.frontpage .blog-detail{font-style:normal;font-weight:400;font-size:20px;letter-spacing:0 .4em;text-align:center}.populer-articles{padding:50px 80px 50px 150px}.populer-articles .popular .main .main-title{font-style:normal;font-weight:700;font-size:20px;letter-spacing:.04em;color:#356ead;opacity:.8;text-transform:uppercase}.populer-articles .popular .main .main-new{display:grid;grid-template-columns:2fr 3fr;grid-template-rows:350px;margin-top:30px}.populer-articles .popular .main .main-new .new .title{font-style:normal;font-weight:700;font-size:36px;letter-spacing:.04em;color:#1f3f68}.populer-articles .popular .main .main-new .new .detail{font-style:normal;font-weight:400;font-size:16px;letter-spacing:.04em;color:#000;opacity:.6;margin-top:10px}.populer-articles .popular .main .main-new .new .information-actions{display:grid;grid-template-columns:2fr 1fr;margin-top:30px}.populer-articles .popular .main .main-new .new .information-actions .author .author-name{font-style:normal;font-weight:700;font-size:14px;letter-spacing:.04em;color:#1f3f68}.populer-articles .popular .main .main-new .new .information-actions .author .read-date{font-style:normal;font-weight:400;font-size:14px;letter-spacing:.04em;color:#1f3f68;opacity:.6}.populer-articles .popular .main .main-new .new .information-actions .actions{display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;color:#356ead}.populer-articles .popular .main .main-new .new-image>img{width:100%;height:100%}.populer-articles .popular .list-of-populars{margin-top:30px;display:grid;grid-template-columns:repeat(3, 1fr);gap:20px}.populer-articles .popular .list-of-populars .popular-new .popular-new-image>img{width:100%;height:200px}.populer-articles .popular .list-of-populars .popular-new .portal-new-title{font-style:normal;font-weight:700;font-size:22px;letter-spacing:.04em;color:#1f3f68;margin-top:10px}.populer-articles .popular .list-of-populars .popular-new .portalnew-description{font-style:normal;font-weight:400;font-size:16px;letter-spacing:.04em;color:rgba(0,0,0,.6)}.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions{display:grid;grid-template-columns:2fr 1fr;margin-top:25px}.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions .portal-new-author-name .author-name{font-style:normal;font-weight:700;font-size:14px;letter-spacing:.04em;color:#1f3f68;text-transform:capitalize}.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions .portal-new-author-name .author-read{font-style:normal;font-weight:400;font-size:14px;letter-spacing:.04em;color:rgba(0,0,0,.4)}.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions .portal-new-author-actions-list{display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;color:#356ead}.populer-articles .popular .seeallpopular{margin-top:20px;text-align:right;font-weight:700;font-size:16px;text-align:right;letter-spacing:.04em;text-transform:uppercase;color:#356ead;opacity:.8}.populer-articles .all-article-container .all-article-title{margin-top:30px;margin-bottom:10px;text-transform:uppercase;font-style:normal;font-weight:700;font-size:20px;letter-spacing:.04em;color:#356ead;opacity:.8}.populer-articles .all-article-container .article-item{margin-top:15px;display:grid;grid-template-columns:1fr 2fr}.populer-articles .all-article-container .article-item .article-imagen img{width:328.64px;height:200px}.populer-articles .all-article-container .article-item .article-informacion .article-information-title{font-style:normal;font-weight:700;font-size:18px;letter-spacing:.04em;color:#1f3f68}.populer-articles .all-article-container .article-item .article-informacion .aticle-information-desciption{font-style:normal;font-weight:400;font-size:14px;letter-spacing:.04em;color:rgba(0,0,0,.6);margin-top:10px}.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions{display:grid;grid-template-columns:2fr 1fr;margin-top:25px}.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions .article-information-author-name .author-name{font-style:normal;font-weight:700;font-size:14px;letter-spacing:.04em;color:#1f3f68;text-transform:capitalize}.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions .article-information-author-name .author-read{font-style:normal;font-weight:400;font-size:14px;letter-spacing:.04em;color:rgba(0,0,0,.4)}.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions .article-information-author-actions-list{display:grid;grid-template-columns:1fr 1fr;justify-items:center;align-items:center;color:#356ead}/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  height: 60px;
+  justify-items: center;
+  align-items: center;
+}
+.menu .logo {
+  border: 2px solid #316099;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0 0.4em;
+  color: #1F3F68;
+  padding: 10px 10px 10px 10px;
+  justify-self: start;
+  margin-left: 20px;
+}
+.menu .home {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0 0.4em;
+  color: #1F3F68;
+}
+.menu .entertaiment,
+.menu .sports {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0 0.4em;
+  color: black;
+}
+
+.frontpage {
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.frontpage .blog-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  letter-spacing: 0 0.4em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.frontpage .blog-detail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0 0.4em;
+  text-align: center;
+}
+
+.populer-articles {
+  padding: 50px 80px 50px 150px;
+}
+.populer-articles .popular .main .main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+.populer-articles .popular .main .main-new {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 350px;
+  margin-top: 30px;
+}
+.populer-articles .popular .main .main-new .new .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+.populer-articles .popular .main .main-new .new .detail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+.populer-articles .popular .main .main-new .new .information-actions {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 30px;
+}
+.populer-articles .popular .main .main-new .new .information-actions .author .author-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+.populer-articles .popular .main .main-new .new .information-actions .author .read-date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+.populer-articles .popular .main .main-new .new .information-actions .actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: #356EAD;
+}
+.populer-articles .popular .main .main-new .new-image > img {
+  width: 100%;
+  height: 100%;
+}
+.populer-articles .popular .list-of-populars {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.populer-articles .popular .list-of-populars .popular-new .popular-new-image > img {
+  width: 100%;
+  height: 200px;
+}
+.populer-articles .popular .list-of-populars .popular-new .portal-new-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-top: 10px;
+}
+.populer-articles .popular .list-of-populars .popular-new .portalnew-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 25px;
+}
+.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions .portal-new-author-name .author-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-transform: capitalize;
+}
+.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions .portal-new-author-name .author-read {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+.populer-articles .popular .list-of-populars .popular-new .portal-new-author-actions .portal-new-author-actions-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: #356EAD;
+}
+.populer-articles .popular .seeallpopular {
+  margin-top: 20px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  /* blue_03 */
+  color: #356EAD;
+  opacity: 0.8;
+}
+.populer-articles .all-article-container .all-article-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+}
+.populer-articles .all-article-container .article-item {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.populer-articles .all-article-container .article-item .article-imagen img {
+  width: 328.64px;
+  height: 200px;
+}
+.populer-articles .all-article-container .article-item .article-informacion .article-information-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+.populer-articles .all-article-container .article-item .article-informacion .aticle-information-desciption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 25px;
+}
+.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions .article-information-author-name .author-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-transform: capitalize;
+}
+.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions .article-information-author-name .author-read {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+.populer-articles .all-article-container .article-item .article-informacion .article-information-author-actions .article-information-author-actions-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: #356EAD;
+}/*# sourceMappingURL=style.css.map */

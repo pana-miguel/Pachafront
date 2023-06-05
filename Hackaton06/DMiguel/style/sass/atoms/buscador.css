@@ -1,1 +1,31 @@
-@import"https://fonts.googleapis.com/css2?family=Abel&display=swap";@import"https://fonts.googleapis.com/css2?family=Alef&display=swap";input{outline:none}.search{margin-block:1em;display:flex;align-items:center;justify-content:center}.search .search__input{width:25em;min-width:10em;font-family:"Arial",sans-serif;background:#f4f4f4;color:#1f3f68;padding:.7em 2em;font-size:1.2em;border-radius:.2em}.search i{color:#1f3f68;position:relative;left:1.4em;z-index:100000}.search i:focus{border:0}/*# sourceMappingURL=buscador.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
+input {
+  outline: none;
+}
+
+.search {
+  margin-block: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search .search__input {
+  width: 25em;
+  min-width: 10em;
+  font-family: "Arial", sans-serif;
+  background: #F4F4F4;
+  color: #1F3F68;
+  padding: 0.7em 2em;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+}
+.search i {
+  color: #1F3F68;
+  position: relative;
+  left: 1.4em;
+  z-index: 100000;
+}
+.search i:focus {
+  border: 0;
+}/*# sourceMappingURL=buscador.css.map */

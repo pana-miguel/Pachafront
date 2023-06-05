@@ -1,1 +1,89 @@
-@import"https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap";*{margin:0;padding:0;box-sizing:border-box}body{background:#25282f;font-family:"Titillium Web",sans-serif}.container{display:grid;padding:30px;gap:20px;grid-template-columns:repeat(6, 1fr);height:100vh}.container .box-amarillo{background:#d1ac39}.container .box-rojo{background:#b93e37}.container .box-azul{background:#2952ba}.container .box-blanco{background:#fff}.container .box-blanco h1{font-size:6rem}.container .box-blanco p{font-size:14px}.box{padding:30px}.box:nth-of-type(1){grid-row:1;grid-column:1}.box:nth-of-type(2){grid-row:1/6;grid-column:2/4}.box:nth-of-type(3){grid-row:1;grid-column:4/7}.box:nth-of-type(4){grid-row:2/6;grid-column:1}.box:nth-of-type(5){grid-row:2/5;grid-column:4/7;text-align:right;padding-left:200px}.box:nth-of-type(5) h1{line-height:1.1em;padding-top:40px;padding-bottom:30px}.box:nth-of-type(6){grid-row:5/6;grid-column:4}.box:nth-of-type(7){grid-area:5/6;grid-column:5}.box:nth-of-type(8){grid-row:5/6;grid-column:6}/*# sourceMappingURL=bauhaus.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #25282f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  display: grid;
+  padding: 30px;
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  height: 100vh;
+}
+.container .box-amarillo {
+  background: #d1ac39;
+}
+.container .box-rojo {
+  background: #b93e37;
+}
+.container .box-azul {
+  background: #2952ba;
+}
+.container .box-blanco {
+  background: #fff;
+}
+.container .box-blanco h1 {
+  font-size: 6rem;
+}
+.container .box-blanco p {
+  font-size: 14px;
+}
+
+.box {
+  padding: 30px;
+}
+
+.box:nth-of-type(1) {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.box:nth-of-type(2) {
+  grid-row: 1/6;
+  grid-column: 2/4;
+}
+
+.box:nth-of-type(3) {
+  grid-row: 1;
+  grid-column: 4/7;
+}
+
+.box:nth-of-type(4) {
+  grid-row: 2/6;
+  grid-column: 1;
+}
+
+.box:nth-of-type(5) {
+  grid-row: 2/5;
+  grid-column: 4/7;
+  text-align: right;
+  padding-left: 200px;
+}
+
+.box:nth-of-type(5) h1 {
+  line-height: 1.1em;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.box:nth-of-type(6) {
+  grid-row: 5/6;
+  grid-column: 4;
+}
+
+.box:nth-of-type(7) {
+  grid-area: 5/6;
+  grid-column: 5;
+}
+
+.box:nth-of-type(8) {
+  grid-row: 5/6;
+  grid-column: 6;
+}/*# sourceMappingURL=bauhaus.css.map */

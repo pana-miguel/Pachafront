@@ -1,1 +1,18 @@
-.accordion{margin-bottom:10px}.accordion-header{background-color:#f1f1f1;border:none;color:#333;padding:8px 16px;font-size:14px;cursor:pointer}.accordion-content{display:none;background-color:#f9f9f9;padding:12px}/*# sourceMappingURL=main.css.map */
+.accordion {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  border: none;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 12px;
+}/*# sourceMappingURL=main.css.map */
