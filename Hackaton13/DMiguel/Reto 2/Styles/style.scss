@@ -28,6 +28,10 @@ body, html {
     align-items: center;
 }
 
+.contenido-button-addPet{
+    display: none;
+}
+
 .contenido-addPost .modal-body{
     display: grid;
     grid-gap: 20px;
@@ -60,4 +64,10 @@ body, html {
     .modal-body-texto{
         grid-area: texto;
     }
+}
+
+.contenido-posts{
+    flex-grow: 1;
+    display: grid;
+    
 }
