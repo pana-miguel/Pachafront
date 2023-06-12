@@ -1,0 +1,29 @@
+
+.form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 470px;
+    gap: 20px;
+    padding: 20px 30px;
+    animation: formModal 1s ease forwards;
+}
+
+.form--overflow {
+    width: 90%;
+    max-width: 673px;
+    height: 90vh;
+    overflow: auto;
+}
+
+@keyframes formModal {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

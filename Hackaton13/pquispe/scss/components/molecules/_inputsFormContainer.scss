@@ -1,0 +1,8 @@
+
+.form__inputsContainer{ 
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, auto);
+    row-gap: 32px;
+}

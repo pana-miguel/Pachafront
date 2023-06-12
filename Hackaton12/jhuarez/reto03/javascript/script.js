@@ -11,8 +11,6 @@ class Modal {
       this.closeBtn.addEventListener('click', this.closeModal.bind(this));
       this.acceptBtn.addEventListener('click', this.accept.bind(this));
       this.cancelBtn.addEventListener('click', this.cancel.bind(this));
-
-      this.modal.style.display = 'none';
     }
   
     openModal() {

@@ -1,0 +1,10 @@
+
+.editContainer__title {
+    color: $text-primary-color;
+    @include font-text (0);
+}
+
+.deleteContainer__title {
+    color: $text-primary-color;
+    @include font-text (0);
+}

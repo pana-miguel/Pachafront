@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+h1 {
+  font-size: 44px;
+  color: white;
+}
+
+h2 {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+}
+
+h1 {
+  font-size: 44px;
+  color: white;
+}
+
+h2 {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.modulo {
+  box-shadow: 5px 7px 26px rgba(0, 0, 0, 0.16);
+}
+.modulo .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+.modulo .heading .title {
+  font-size: 36px;
+  text-align: left;
+  padding: 15px;
+}
+.modulo .heading .button {
+  display: none;
+}
+.modulo .heading .button .add-pet-btn {
+  background-color: transparent;
+  color: #000000;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.modulo .body {
+  min-height: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modulo .body .add-pet-btn {
+  background-color: #E5E5E5;
+  width: 244px;
+  color: #000000;
+  font-weight: 500;
+  border: none;
+  padding: 25px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal .modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+.modal .close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pet-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.pet-form input[type=text],
+.pet-form input[type=email],
+.pet-form input[type=tel],
+.pet-form select,
+.pet-form textarea {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  color: #9D9D9D;
+  border: 1px solid #9D9D9D;
+}
+
+.pet-form textarea {
+  grid-column: span 2;
+}
+
+.pet-form button[type=submit],
+.pet-form button[type=button] {
+  background-color: #E5E5E5;
+  color: #000000;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-group {
+  grid-column: span 2;
+  text-align: center;
+  margin-top: 20px;
+}
+.btn-group button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .card-grid {
+    padding: 3.91vw;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #A1A1A1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card h3 {
+  margin-bottom: 15px;
+}
+.card p:not(:last-child) {
+  margin-bottom: 10px;
+}
+.card p strong {
+  display: none;
+}
+.card img {
+  border-radius: 100%;
+  border: 1px solid #A1A1A1;
+  aspect-ratio: 140/140;
+  max-width: 140px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  margin-bottom: 25px;
+}
+.card .edit-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: solid 1px #9D9D9D;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: none;
+}
+.card .delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+  display: none;
+}
+.card:hover {
+  filter: drop-shadow(0px 0px 5px #000000);
+}
+.card:hover .delete-btn,
+.card:hover .edit-btn {
+  display: block;
+}
+
+.delete-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.delete-modal .modal-content {
+  background-color: white;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #E5E5E5;
+  width: 469px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.delete-modal #delete-modal-message {
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+.delete-modal .modal-buttons {
+  text-align: center;
+}
+.delete-modal .modal-buttons button {
+  background-color: #E5E5E5;
+  color: #000000;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.delete-modal .modal-buttons button:not(:last-child) {
+  margin-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  padding: 0 50px;
+}
+@media only screen and (max-width: 989px) {
+  .content {
+    padding: 0 7.5vw;
+  }
+}/*# sourceMappingURL=main.css.map */

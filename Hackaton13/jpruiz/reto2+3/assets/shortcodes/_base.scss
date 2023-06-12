@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: $heading-font-family;
+  
+}
+
+.content{
+    padding: 0 50px;
+    @media only screen and (max-width: 989px) {
+        padding: 0 7.5vw;
+    }
+}

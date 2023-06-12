@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema CRUD de Mascotas</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/3359f70bfe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <h1>Dog Crud</h1>
+            </div>
+            <div class="header-agregar-boton">
+                <button id="agregar-btn">Agregar Mascota</button>
+            </div>
+        </div>
+    </header>
+    <section class="section-mascotas">
+        <div class="container">
+            <div class="content">
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Agregar Mascota</h2>
+                        <form id="mascota-form">
+                            <div class="form-wrapper">
+                                <div class="input-container">
+                                    <input type="text" id="nombre" required placeholder="Nombre">
+                                </div>
+                                <div class="input-container">
+                                    <input type="text" id="apellido" required placeholder="Apellido">
+                                </div>
+                                <div class="input-container">
+                                    <input type="text" id="raza" required placeholder="Raza">
+                                    
+                                </div>
+                                <div class="input-container">
+                                    <input type="text" id="telefono" required placeholder="Teléfono">
+                                </div>
+                                <div class="input-container">
+                                    
+                                    <select id="pais" required>
+                                        <option value="default" selected>Pais</option>
+                                        <option value="Perú">Perú</option>
+                                        <option value="Estados Unidos">Estados Unidos</option>
+                                    </select>
+                                </div>
+                                <div class="input-container">
+                                    <input type="text" id="foto" required placeholder="URL De Fotografía" pattern="^(http(s?):)([/|.|\w|\s|-])*\.(?:png|jpg)$" title="Solo url validas en png/jpg">
+                                </div>
+                                <div class="input-container is-full">
+                                    <textarea id="informacion" required placeholder="Sobre él/ella"></textarea>
+                                </div>
+                                <div class="input-container is-full is-button">
+                                    <button type="submit">Agregar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="agregar-mascota-container">
+                    <button id="agregar-btn">Agregar Mascota</button>
+                </div>
+                <div class="mascota-wrapper" id="mascotas-body">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Crud</title>
+    <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+    
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <span>Dog Crud</span>
+        </div>
+        <div class="nav-right">
+            <a href="">Agregar mascota</a>
+        </div>
+    </nav>
+
+    
+  <h1>Mascotas</h1>
+
+  <div id="mascotas-container"></div>
+
+  <form id="agregar-form">
+    <h2>Agregar Mascota</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" required>
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" required>
+    <label for="pais">País:</label>
+    <input type="text" id="pais" required>
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" required></textarea>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <script src="./javascript/mascotas.js"></script>
+</body>
+</html>
+

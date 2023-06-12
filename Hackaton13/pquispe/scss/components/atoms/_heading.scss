@@ -1,0 +1,15 @@
+
+.header__title {
+    color: $text-primary-color;
+    @include font-text (2.7);
+}
+
+.form__title {
+    color: $text-primary-color;
+    @include font-text (0.9);
+}
+
+.itemCard__name {
+    color: $text-primary-color;
+    @include font-text (1.1);
+}

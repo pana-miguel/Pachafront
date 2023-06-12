@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="lofi">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackaton13 - HRT</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.0.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="relative">
+  <header class="">
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">Dog CRUD</a>
+      </div>
+      <div id="btn-crear-nav" class="flex-none invisible">
+        <ul class="menu menu-horizontal px-1">
+          <li><label for="addPetModal" class="btn content-center">Crear mascota</label></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="btn-crear-main" class="h-[calc(100vh-8rem)] flex justify-center items-center hidden">
+      <label for="addPetModal" class="btn content-center">Crear mascota</label>
+    </section>
+    <section id="containerPets" class="w-full p-6 grid justify-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6">
+    </section>
+  </main>
+</body>
+
+<input type="checkbox" id="editPetModal" class="modal-toggle" />
+<div class="modal">
+  <form id="editForm" class="modal-box grid grid-cols-1 lg:grid-cols-2 gap-2">
+    <input type="hidden" name="uuid" id="uuidEdit">
+    <h3 class="font-bold text-lg lg:col-span-2">Agregar mascota!</h3>
+    <input type="text" placeholder="Nombre" name="nombre" id="nombreMascotaEdit" class="input input-bordered w-full max-w-md"/>
+    <input type="email" placeholder="Correo" name="correo" id="correoMascotaEdit" class="input input-bordered w-full max-w-md"/>
+    <input type="text" placeholder="Raza" name="raza" id="razaMascotaEdit" class="input input-bordered w-full max-w-md"/>
+    <input type="tel" placeholder="Telefono" name="telefono" id="telefonoMascotaEdit" class="input input-bordered w-full max-w-md"/>
+    <select id="paisMascotaEdit" name="pais" class="select select-bordered w-full max-w-md">
+      <option disabled selected value="0">Seleccionar Pais</option>
+      <option value="Peru">Peru</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Colombia">Colombia</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Mexico">Mexico</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Otro">Otro</option>
+    </select>
+    <input type="url" placeholder="Url de la fotografia" name="url" id="urlMascotaEdit" class="input input-bordered w-full max-w-md"/>
+    <textarea class="textarea textarea-bordered lg:col-span-2 resize-none max-w-md" placeholder="Descripcion" id="descripcionMascotaEdit" name="descripcion" cols="30" rows="5"></textarea>
+    <div id="alertEdit" class="lg:col-span-2">
+
+    </div>
+    <div class="lg:col-end-3">
+      <label id="btnEdit" class="btn">Aceptar</label>
+      <label for="editPetModal" id="btnCloseEdit" class="btn">Close</label>
+    </div>
+  </form>
+  <label class="modal-backdrop" for="editPetModal">Close</label>
+</div>
+<input type="checkbox" id="deletePetModal" class="modal-toggle" />
+<div class="modal">
+  <div id="" class="modal-box">
+    <h3 class="font-bold text-lg">Estas seguro que quieres eliminar a esta mascota?</h3>
+    <div class="flex justify-around items-center flex-col md:flex-row gap-2 md:gap-0 mt-4">
+      <label onclick="mascota.delete()" id="delPet" class="btn w-full md:w-auto">Aceptar</label>
+      <label for="deletePetModal" class="btn w-full md:w-auto">Close</label>
+    </div>
+  </div>
+  <label class="modal-backdrop" for="deletePetModal">Close</label>
+</div>
+<input type="checkbox" id="addPetModal" class="modal-toggle" />
+<div class="modal">
+  <form id="addForm" class="modal-box grid grid-cols-1 lg:grid-cols-2 gap-2">
+    <h3 class="font-bold text-lg lg:col-span-2">Agregar mascota!</h3>
+    <input type="text" placeholder="Nombre" name="nombre" id="nombreMascota" class="input input-bordered w-full max-w-md"/>
+    <input type="email" placeholder="Correo" name="correo" id="correoMascota" class="input input-bordered w-full max-w-md"/>
+    <input type="text" placeholder="Raza" name="raza" id="razaMascota" class="input input-bordered w-full max-w-md"/>
+    <input type="tel" placeholder="Telefono" name="telefono" id="telefonoMascota" class="input input-bordered w-full max-w-md"/>
+    <select name="pais" class="select select-bordered w-full max-w-md">
+      <option disabled selected value="0">Seleccionar Pais</option>
+      <option value="Peru">Peru</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Colombia">Colombia</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Mexico">Mexico</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Otro">Otro</option>
+    </select>
+    <input type="url" placeholder="Url de la fotografia" name="url" id="urlMascota" class="input input-bordered w-full max-w-md"/>
+    <textarea class="textarea textarea-bordered lg:col-span-2 resize-none max-w-md" placeholder="Descripcion" id="descripcion" name="descripcion" cols="30" rows="5"></textarea>
+    <div id="alertAdd" class="lg:col-span-2">
+
+    </div>
+    <div class="lg:col-end-3">
+      <label id="btnCrear" class="btn">Aceptar</label>
+      <label for="addPetModal" id="btnCloseAdd" class="btn">Close</l>
+    </div>
+  </form>
+  <label class="modal-backdrop" for="addPetModal">Close</label>
+</div>
+<script src="./helpers.js"></script>
+<script src="./data.js"></script>
+<script src="./app.js"></script>
+</html>

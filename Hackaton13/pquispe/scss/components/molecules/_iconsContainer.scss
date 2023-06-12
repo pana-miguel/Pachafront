@@ -1,0 +1,10 @@
+
+.editContainer {
+    @include options-card;
+    left: 10px;
+}
+
+.deleteContainer {
+    @include options-card;
+    right: 10px;
+}

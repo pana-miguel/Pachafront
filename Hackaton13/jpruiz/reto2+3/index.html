@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackaton #13</title>
+    <link rel="stylesheet" type="text/css" href="../reto2+3/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="modulo">
+                <div class="heading">
+                    <div class="title">Dog Crud</div>
+                    <div class="button">
+                        <button class="add-pet-btn" onclick="openModal()">Agregar Mascota</button>
+                    </div>
+                </div>
+                <div class="body">
+                    <button class="add-pet-btn" onclick="openModal()">Agregar Mascota</button>
+                </div>
+                <div id="cards" class="card-grid"></div> 
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Agregar Mascota</h2>
+            <form onsubmit="addPet(event)" class="pet-form">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellido" placeholder="Apellido" required>
+                <input type="email" id="correo" placeholder="Correo" required>
+                <input type="tel" id="telefono" placeholder="Teléfono" required>
+                <select id="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Mexico">Mexico</option>
+                    <!-- Agrega más países aquí -->
+                </select>
+                <input type="text" id="foto" placeholder="URL de la fotografía" required>
+                <textarea id="comentarios" placeholder="Comentarios"></textarea>
+                <div class="btn-group">
+                    <button type="submit">Aceptar</button>
+                    <button type="button" onclick="closeModal()">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="delete-modal" class="delete-modal">
+        <div class="modal-content">
+            <p id="delete-modal-message">¿Estás seguro de eliminar la tarjeta?</p>
+            <div class="modal-buttons">
+                <button id="delete-confirm-button">Confirmar</button>
+                <button id="delete-cancel-button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../reto2+3/script.js"></script>
+</body>
+
+</html>

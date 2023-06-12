@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido{
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-nav{
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contenido-nav-title, .contenido-nav-addPet{
+        margin: 0.4em 1em;
+    }
+}
+
+.contenido-button-addPet{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-addPost .modal-body{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:"nombre apellido"
+                        "raza telefono"
+                        "pais pais"
+                        "foto foto"
+                        "texto texto"
+                        "texto texto";
+    .modal-body-nombre{
+        grid-area: nombre;
+    }
+    .modal-body-apellido{
+        grid-area: apellido;
+    }
+    .modal-body-raza{
+        grid-area: raza;
+    }
+    .modal-body-cell{
+        grid-area: telefono;
+    }
+    .modal-body-pais{
+        grid-area: pais;
+    }
+    .modal-body-foto{
+        grid-area: foto;
+    }
+    .modal-body-texto{
+        grid-area: texto;
+    }
+}

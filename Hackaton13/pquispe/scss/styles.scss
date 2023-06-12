@@ -1,0 +1,38 @@
+
+// Variables
+@import "./components/variables/variables";
+
+// Mixins
+@import "./components/mixins/mixins";
+
+// Reset
+@import "./components/reset/reset";
+
+// Atoms
+@import "./components/atoms/heading";
+@import "./components/atoms/buttons";
+@import "./components/atoms/imges";
+@import "./components/atoms/paragraph";
+@import "./components/atoms/icons";
+@import "./components/atoms/span";
+@import "./components/atoms/inputs";
+@import "./components/atoms/textareas";
+@import "./components/atoms/loading";
+
+// Molecules
+@import "./components/molecules/header";
+@import "./components/molecules/iconsContainer";
+@import "./components/molecules/cards";
+@import "./components/molecules/titleFormContainer";
+@import "./components/molecules/inputsFormContainer";
+@import "./components/molecules/buttonsFormContainer";
+@import "./components/molecules/loadingContainer";
+
+// Organisms
+@import "./components/organisms/cardsContainer";
+@import "./components/organisms/main";
+@import "./components/organisms/form";
+@import "./components/organisms/formContainer";
+
+// Breakpoints
+@import "./components/breakpoints/laptop";

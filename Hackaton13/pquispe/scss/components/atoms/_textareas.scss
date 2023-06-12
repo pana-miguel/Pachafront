@@ -1,0 +1,8 @@
+
+textarea {
+    font-family: $font-family-stack;
+    @include font-text (0.9);
+    width: 100%;
+    border: 1px solid $border-input-color;
+    padding: 14px 12px;
+}

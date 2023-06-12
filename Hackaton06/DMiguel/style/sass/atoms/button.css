@@ -1,9 +1,1 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
-button {
-  padding: 1.2em 3.9em;
-  background: #5A98D0;
-  color: #fff;
-  font-size: 0.7em;
-  font-family: "Arial", sans-serif !important;
-}/*# sourceMappingURL=button.css.map */
+@import"https://fonts.googleapis.com/css2?family=Abel&display=swap";@import"https://fonts.googleapis.com/css2?family=Alef&display=swap";button{padding:1.2em 3.9em;background:#5a98d0;color:#fff;font-size:.7em;font-family:"Arial",sans-serif !important}/*# sourceMappingURL=button.css.map */

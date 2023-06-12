@@ -1,14 +1,1 @@
-.img-principal, .img-secundary {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.img-principal {
-  width: 100%;
-  height: 100%;
-}
-
-.img-secundary {
-  width: 100%;
-  height: 100%;
-}/*# sourceMappingURL=imgs.css.map */
+.img-principal,.img-secundary{-o-object-fit:cover;object-fit:cover}.img-principal{width:100%;height:100%}.img-secundary{width:100%;height:100%}/*# sourceMappingURL=imgs.css.map */

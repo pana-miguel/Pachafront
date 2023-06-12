@@ -1,0 +1,22 @@
+
+@mixin font-text ($size) {
+    font-size: 0.9rem + $size;
+    font-weight: $font-weight-stack;
+    font-style: $font-style-stack;
+}
+
+@mixin style-button {
+    background-color: $background-color-button;
+    color: $text-primary-color;
+    @include font-text (0.5);
+    cursor: pointer;
+}
+
+@mixin options-card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}

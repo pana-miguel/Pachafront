@@ -1,0 +1,25 @@
+
+.itemCard__contact {
+    color: $text-primary-color;
+    @include font-text (0.7);
+    margin-bottom: 8px;
+}
+
+.itemCard__country {
+    color: $text-primary-color;
+    @include font-text (0.7);
+    margin-bottom: 8px;
+}
+
+.itemCard__about {
+    color: $text-primary-color;
+    @include font-text (0.5);
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.form__questionDelete {
+    @include font-text (0.5);
+    text-align: center;
+    margin-bottom: 20px;
+}
