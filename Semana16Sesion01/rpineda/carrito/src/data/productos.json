@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Cuadros de 25 x 25",
+        "imagen": "25x25.jpg",
+        "valor": 10.00
+    },
+    {
+        "nombre": "Cuadros de 50 x 50",
+        "imagen": "50x50.jpg",
+        "valor": 15.00
+    },
+    {
+        "nombre": "Cuadros de 75 x 75",
+        "imagen": "75x75.jpg",
+        "valor": 20.00
+    },
+    {
+        "nombre": "Cuadros de 25 x 75",
+        "imagen": "25x75.jpg",
+        "valor": 25.00
+    },
+    {
+        "nombre": "Cuadros de 50 x 75",
+        "imagen": "50x75.jpg",
+        "valor": 30.00
+    }
+]

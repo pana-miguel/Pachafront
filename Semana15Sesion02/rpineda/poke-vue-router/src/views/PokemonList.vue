@@ -13,7 +13,7 @@ export default {
     };
   },
   mounted() {
-    axios.get(`https://pokeapi.co/api/v2/pokemon?limit=151`).then((res) => {
+    axios.get(`https://pokeapi.co/api/v2/pokemon?limit=200`).then((res) => {
       if (res.data && res.data.results) {
         this.items = res.data.results;
       }

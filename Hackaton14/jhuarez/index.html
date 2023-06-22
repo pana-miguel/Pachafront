@@ -48,23 +48,25 @@
                       </div>
 
                     <button type="submit" id="acceptBtn" class="btn btn-primary">Aceptar</button>
-                    <button id="cancelBtn" class="btn btn-primary">Cancelar</button>
+                    <button type="button" id="cancelBtn" class="btn btn-primary">Cancelar</button>
                     <input type="hidden" name="id">
                 </form>
                     
             </div>
         </div>
 
-          <!-- Modal de Confirmación -->
-        <!-- <div id="myModal2" class="modal2">
-            <div class="modal2-content">
-            <span id="modal2Mensaje"></span>
-            <div class="modal2-buttons">
-                <button id="modal2AceptarBtn">Aceptar</button>
-                <button id="modal2CancelarBtn">Cancelar</button>
+
+         <!-- Modal de Confirmación -->
+        <div id="myModal2" class="modal-video oculto">
+            <div class="modal-contenido">
+                <h1>Borrar video</h1>
+                <p>¿Está seguro que quiere eliminar este video?</p>
+                <div class="modal2-buttons">
+                    <button id="modal2AceptarBtn" class="aceptar-eliminar">Aceptar</button>
+                    <button id="modal2CancelarBtn">Cancelar</button>
+                </div>
             </div>
-            </div>
-        </div> -->
+        </div> 
     </section>
 
   
@@ -78,10 +80,14 @@
     <template id="crud-template">
         <li>
             <div class="contenedor-iframe">
+                 
                 <button class="btn-editar iframe-button">Editar</button>
-                <button class="btn-eliminar iframe-button">Eliminar</button> 
+                <button class="btn-eliminar iframe-button">Eliminar</button>
 
-                <iframe class="urlillo" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="urlillo" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    
+                </iframe>
+
             </div>
 
             <p class="titulillo"></p>
@@ -100,5 +106,3 @@
     
 </body>
 </html>
-
-

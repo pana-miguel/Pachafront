@@ -1,0 +1,6 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="monitor">
+    <rect id="Rectángulo_1576" data-name="Rectángulo 1576" width="60" height="60" fill="#5640ff" opacity="0"/>
+    <path id="Trazado_7360" data-name="Trazado 7360" d="M49.6,3H10.4C5.761,3,2,7.029,2,12V36c0,4.971,3.761,9,8.4,9H27.2v6H16a3.007,3.007,0,0,0,0,6H44a3.007,3.007,0,0,0,0-6H32.8V45H49.6c4.639,0,8.4-4.029,8.4-9V12C58,7.029,54.239,3,49.6,3Zm2.8,33a2.905,2.905,0,0,1-2.8,3H10.4a2.905,2.905,0,0,1-2.8-3V12a2.905,2.905,0,0,1,2.8-3H49.6a2.905,2.905,0,0,1,2.8,3Z" transform="translate(0 0)" fill="#5640ff"/>
+  </g>
+</svg>
