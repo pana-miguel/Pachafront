@@ -84,6 +84,6 @@ import productos from './productos.vue'
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
 
-  <productos/>
+    <productos />
   </WelcomeItem>
 </template>

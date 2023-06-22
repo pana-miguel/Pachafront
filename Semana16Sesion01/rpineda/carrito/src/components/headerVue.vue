@@ -5,9 +5,7 @@
         <img src="@/assets/img/logo.png" alt="logo" />
       </router-link>
     </div>
-    <div style="display: none;">
-
-    </div>
+    <div style="display: none"></div>
     <nav class="menu">
       <!-- Debe mandarse a la ruta mis compras -->
       <div class="mini-shop-cart">
@@ -50,32 +48,31 @@
 <script>
 import { useItemsShopCartStore } from '../stores/shopCart'
 export default {
-  name: "headerVue",
+  name: 'headerVue',
   methods: {
     showMenu() {
-      const menu = document.querySelector("#js_menu");
-      const grayOut = document.querySelector(".gray-out");
-      menu.classList.add("active");
-      grayOut.classList.add("active");
+      const menu = document.querySelector('#js_menu')
+      const grayOut = document.querySelector('.gray-out')
+      menu.classList.add('active')
+      grayOut.classList.add('active')
     },
     hideMenu() {
-      const menu = document.querySelector("#js_menu");
-      const grayOut = document.querySelector(".gray-out");
-      menu.classList.remove("active");
-      grayOut.classList.remove("active");
-    },
+      const menu = document.querySelector('#js_menu')
+      const grayOut = document.querySelector('.gray-out')
+      menu.classList.remove('active')
+      grayOut.classList.remove('active')
+    }
   },
   computed: {
     getCounterMiniShopCart() {
-      
-const itemsShopCart = useItemsShopCartStore();
-itemsShopCart.fill();
-console.log(itemsShopCart)
-      return itemsShopCart.shopCart.length;
-    },
+      const itemsShopCart = useItemsShopCartStore()
+      itemsShopCart.fill()
+      console.log(itemsShopCart)
+      return itemsShopCart.shopCart.length
+    }
   }
 }
-  //getCounterMiniShopCart
+//getCounterMiniShopCart
 </script>
 
 <style scoped>
@@ -229,7 +226,8 @@ console.log(itemsShopCart)
 
 /* Respoonive */
 /* Tablet V */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
 /* Desktop */
 @media screen and (min-width: 992px) {
@@ -251,4 +249,5 @@ console.log(itemsShopCart)
   .widget-menu {
     width: 35%;
   }
-}</style>
+}
+</style>
