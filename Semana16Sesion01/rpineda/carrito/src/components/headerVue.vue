@@ -65,11 +65,12 @@ export default {
   },
   computed: {
     getCounterMiniShopCart() {
-      const itemsShopCart = useItemsShopCartStore()
-      itemsShopCart.fill()
+
+      const itemsShopCart = useItemsShopCartStore();
+      itemsShopCart.fill();
       console.log(itemsShopCart)
-      return itemsShopCart.shopCart.length
-    }
+      return itemsShopCart.shopCart.length;
+    },
   }
 }
 //getCounterMiniShopCart
